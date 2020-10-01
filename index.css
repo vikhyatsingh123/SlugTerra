@@ -35,7 +35,7 @@ body {
     background-repeat: no-repeat;
    margin-left: -35%;
    margin-top:-23%;
-    height: 130vh;
+    height: 140vh;
    object-fit:scale-down;
 }
 .itemNav {
@@ -45,7 +45,7 @@ body {
   font-size: 3rem;
   text-align: center;
   padding-bottom: 5%;
-  margin-top: 10%;
+  margin-top: 15%;
   text-transform: uppercase;
 }
 .lead {
