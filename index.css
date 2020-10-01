@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+}
+#header {
+  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 20%;
+}
+.card-img-top {
+  padding: 2rem;
+}
+body {
+  font-family: 'Righteous', cursive;
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+}
+
+.navTitle {
+  color: #ffffff;
+  padding-left: 50px;
+  size: 50px;
+}
+.card {
+  height: 100%;
+}
+.theme{
+    background-image: url(images/2407699.jpg);
+ width: 169%;
+    background-repeat: no-repeat;
+   margin-left: -35%;
+   margin-top:-23%;
+    height: 130vh;
+   object-fit:scale-down;
+}
+.itemNav {
+  padding: 15px;
+}
+.gallery-head {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+.lead {
+  font-size: 1.5rem;
+}
+.display-3 {
+  font-size: 8rem;
+}
+.gallery-icon {
+  color: #000000;
+  text-align: center;
+}
+.backToTop {
+  margin-left: 49%;
+
+  color: #000000;
+  padding: 0.6%;
+  border-radius: 50%;
+  margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+  .lead {
+    font-size: 1.6rem;
+  }
+  .gallery-head {
+    font-size: 2rem;
+  }
+  .navTitle {
+    padding-left: 3px;
+  }
+}
