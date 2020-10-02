@@ -8,6 +8,7 @@ html {
   height: 100vh;
   padding: 20%;
 }
+
 .card-img-top {
   padding: 2rem;
 }
@@ -67,6 +68,10 @@ body {
   margin-bottom: 4%;
 }
 
+.fSize3 {
+  font-size: 0.5rem;
+}
+
 @media only screen and (max-width: 600px) {
   .display-3 {
     font-size: 4rem;
@@ -79,5 +84,12 @@ body {
   }
   .navTitle {
     padding-left: 3px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .img_container {
+    height: 370px;
   }
 }
