@@ -3,11 +3,18 @@ html {
 }
 #header {
   background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  height: 100vh;
-  padding: 20%;
+  height: 50vh;
+  padding: 2%;
 }
+
+@media (min-width: 820px) {
+  #header {
+    height: 100vh;
+  }
+}
+
 .card-img-top {
   padding: 2rem;
 }
@@ -30,14 +37,13 @@ body {
   height: 100%;
 }
 .theme{
-    background-image: url(images/2407699.jpg);
- width: 169%;
-    background-repeat: no-repeat;
-    background-position: center;
-   margin-left: -35%;
-   margin-top:-46%;
-    height: 140vh;
-   object-fit:scale-down;
+
+    background: url(images/2407699.jpg) no-repeat;
+    height: 100%;
+    background-size: 80%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .itemNav {
   padding: 15px;
@@ -56,6 +62,7 @@ body {
   font-size: 8rem;
 }
 .gallery-icon {
+  padding-top: 50px;
   color: #000000;
   text-align: center;
 }
