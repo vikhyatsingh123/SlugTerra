@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: thistle;
+            border: 3px solid rgb(64,6,119);
+            padding: 23px 56px 6px 78px;/* padding top, right ,bottom,left*/
+            /* padding: y(top/bottom) x(left/right); */
+            margin-top: 34px;
+            margin-bottom: 34px;
+            margin-left: 34px;
+            border-radius: 23px;
+            width: 533px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus cupiditate quo sed labore, quos dolorum obcaecati, nihil sit similique, doloribus assumenda possimus?</p>
+    </div>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus cupiditate quo sed labore, quos dolorum obcaecati, nihil sit similique, doloribus assumenda possimus?</p>
+    </div>
+    <div class="container">
+        <h3>this is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus cupiditate quo sed labore, quos dolorum obcaecati, nihil sit similique, doloribus assumenda possimus?</p>
+    </div>
+    
+    
+</body>
+</html>
