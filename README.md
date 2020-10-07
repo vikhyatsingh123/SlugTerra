@@ -13,7 +13,7 @@ You can find all types Slugs on  https://slugterra.fandom.com/wiki/Slugs  and al
 
 # What can you contribute?
 
-There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Slug as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that.Sure! Why not?
+There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite Slug as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that. Sure! Why not?
 
 # How can you contribute
 ![Hacktoberfest2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
