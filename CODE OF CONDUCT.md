@@ -3,7 +3,7 @@ We are dedicated to providing a harassment­ free experience for everyone, and w
 
 Diversity and inclusion make the Docker community strong. We encourage participation from the most varied and diverse backgrounds possible and want to be very clear about where we stand.
 
-Our goal is to maintain a safe, helpful and friendly Docker community for everyone, regardless of experience, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, nationality, or other protected categories under applicable law.
+Our goal is to maintain a safe, helpful and friendly Docker community for everyone, regardless of experience, gender identity and expression, disability, personal appearance, body size, race, ethnicity, age, religion, nationality, or other protected categories under applicable law.
 
 Expected Behavior
 Be professional.
