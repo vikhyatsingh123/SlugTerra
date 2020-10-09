@@ -16,13 +16,10 @@ Unacceptable Behavior
 Harassment may include but not limited to the following:
 
 Offensive, inappropriate, or unwanted comments related to gender, gender identity or expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, national origin, religion, or age, or other protected categories under applicable law.
-Visual harassment eg. sexual imagery or use of sexual language at Docker community events
+Visual harassment eg. inappropriate imagery or use of inappropriate language at Docker community events
 Disrespect towards differences of opinion
-Deliberate intimidation, stalking, harassing photography or recording
 Sustained disruption of talks or other events
-Inappropriate or unwanted physical contact
 Intimidation or bullying (online or in-person)
-Unwelcome sexual attention
 Reporting and Enforcement
 If you are the subject of, or witness to any violations of this Code of Conduct, please contact us by submitting an incident report, or email dockercon@docker.com
 If necessary, conference staff are empowered to take appropriate actions that may include, but are not limited to, warnings, expulsion from the conference without refund, and referrals to venue security or local law enforcement.
