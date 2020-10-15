@@ -10,12 +10,14 @@ nav {
 body {
   background-color: white;
   font-family: "Righteous", cursive;
+  font-weight: bold;
 }
 h1 {
   color: black;
   text-align: center;
   margin-top: 90px;
   margin-bottom: 40px;
+  line-height: 14pt;
 }
 #one {
   background-color: rgb(40, 103, 178);
@@ -32,7 +34,7 @@ h1 {
 .navTitle {
   color: #ffffff;
   padding-left: 50px;
-  size: 50px%;
+  size: 50px;
 }
 
 .itemNav {
