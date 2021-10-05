@@ -1,5 +1,25 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(black, #8bf2d5);
+  border-radius: 10px;
+  /* transition: all 0.6s; */
+}
+
+::-webkit-scrollbar-track{
+  /* border-radius: 10px; */
+  background: white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #f4f2a8);
+}
+
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 #header {
   background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
