@@ -10,10 +10,36 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
 	<link rel="stylesheet" href="index.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="{% static 'css/stylesheet.css'%}" type="text/css">
 	<title>SlugTerra</title>
+  <style>
+    .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+  </style>
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 		<a class="navbar-brand navTitle" href="index.html"><i class="fas fa-desktop mr-2"></i>SlugTerra</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +74,7 @@
 	<section id="gallery">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 mb-4">
+				<div class="col-lg-4 mb-4" >
 					<div class="card">
 						<img class="card-img-top" src="images/burphy.jpg" alt="Burphy" />
 						<div class="card-body">
@@ -77,7 +103,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 mb-4">
+				<div class="col-lg-4 mb-4" >
 					<div class="card">
 						<img class="card-img-top" src="images/goon.png" alt="Bulbasaur" />
 						<div class="card-body">
@@ -1481,6 +1507,11 @@
 			$(".navbar-collapse").collapse("hide");
 		});
 	</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 </body>
 </html>
 
