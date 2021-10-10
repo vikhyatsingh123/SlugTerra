@@ -72,7 +72,7 @@ body {
 
 
 
-.card:hover .card img{
+.card img:hover{
   transfrom:scale(1.1);
 /*   transfrom:rotateZ(5deg); */
   transition:all 0.3s ease-out;
