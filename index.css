@@ -72,7 +72,8 @@ body {
 }
 
 .card:hover .card-img-top{
-  transfrom:scale(1.1) rotateZ(5deg);
+  transfrom:scale(1.1);
+  transfrom:rotateZ(5deg);
 }
 
 @media only screen and (max-width: 600px) {
