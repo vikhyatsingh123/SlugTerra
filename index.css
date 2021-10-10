@@ -28,6 +28,7 @@ body {
 }
 .card {
   height: 100%;
+  overflow: hidden;
 }
 .theme{
   background-image: url(images/2407699.jpg);
@@ -67,13 +68,14 @@ body {
   margin-bottom: 4%;
 }
 
-.card-img-top{
-  transtion:all 0.3s ease-out;
-}
 
-.card:hover{
+
+
+
+.card:hover .card img{
   transfrom:scale(1.1);
 /*   transfrom:rotateZ(5deg); */
+  transition:all 0.3s ease-out;
 }
 
 @media only screen and (max-width: 600px) {
