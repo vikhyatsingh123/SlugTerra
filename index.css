@@ -2,17 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 #header {
-  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
+  background: url("https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
   padding: 20%;
 }
+
 .card-img-top {
   padding: 2rem;
 }
 body {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   color: black;
 }
 
@@ -29,14 +30,14 @@ body {
 .card {
   height: 100%;
 }
-.theme{
+.theme {
   background-image: url(images/2407699.jpg);
- width: 169%;
-    background-repeat: no-repeat;
-   margin-left: -35%;
-   margin-top:-23%;
-    height: 140vh;
-   object-fit:scale-down;
+  width: 169%;
+  background-repeat: no-repeat;
+  margin-left: -35%;
+  margin-top: -23%;
+  height: 140vh;
+  object-fit: scale-down;
 }
 .itemNav {
   padding: 15px;
