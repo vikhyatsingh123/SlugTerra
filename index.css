@@ -27,6 +27,7 @@ body {
   padding-left: 50px;
   size: 50px;
 }
+
 .card {
   background-color: #222;
   color: wheat;
@@ -43,10 +44,10 @@ body {
 }
 
 .card:hover{
-    box-shadow: 10px 10px 1px #e92929, 20px 20px 1px 
-    #a2e946,30px 30px 1px #297ce9, 40px 40px 1px #e92999;
-    transform: scale();
-    z-index: 100;
+  box-shadow: 10px 10px 1px #e92929, 20px 20px 1px 
+  #a2e946,30px 30px 1px #297ce9, 40px 40px 1px #e92999;
+  transform: scale(0.95);
+  z-index: 100;
 }
 
 .theme{
