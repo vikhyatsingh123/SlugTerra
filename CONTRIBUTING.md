@@ -12,3 +12,4 @@ Contributing guidelines are as follows -
 10. Push the changes using the command - `git push origin [branch-name]`
 11. Create a pull request.
 12. Star this Repository.
+13. Thanking You !
