@@ -2,19 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 #header {
-  background: url('./images/slugterra.jpg');
+  background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
   background-position: center;
   background-size: cover;
   height: 100vh;
   padding: 20%;
-  filter: contrast(var(--value, 5)); --value:3;
+  margin:0 auto;
 }
 .card-img-top {
   padding: 2rem;
 }
 body {
   font-family: 'Righteous', cursive;
-  color: black;
+  background-color: #444;
 }
 
 .navbar {
@@ -27,57 +27,49 @@ body {
   padding-left: 50px;
   size: 50px;
 }
+
 .card {
+  background-color: #222;
+  color: wheat;
+  margin:20px;
+  border-radius: 0;
   height: 100%;
+  box-shadow: 3px 3px 1px #e92929, 5px 5px 1px 
+  #a2e946,7px 7px 1px #297ce9, 9px 9px 1px #e92999;
+  transition: all 0.5s;
 }
-/* .theme{
-  background-image: url("./images/slugterra.jpg");
-  background-size: cover;
-  height:100vh;
-  width:100vh;
-} */
-/* .theme{
-  background-image: url(images/slugterra.jpg);
- width: 169%;
-    background-repeat: no-repeat;
-   margin-left: -35%;
-   margin-top:-23%;
-    height: 140vh;
-   object-fit:scale-down;
-} */
-.fas.fa-chevron-down.fa-6x.gallery-icon{
-position: absolute;
-top:100px;
-right:20px;
-color:#5bb6eb !important;
-text-shadow: 0px 0px 10px white;
--webkit-text-stroke: 2px #7dcefd;
+
+.card-text{
+  color:#eee;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 1px #e92929, 20px 20px 1px 
+  #a2e946,30px 30px 1px #297ce9, 40px 40px 1px #e92999;
+  transform: scale(0.95);
+  z-index: 100;
+}
+
+.theme{
+  background-image: url(images/2407699.jpg);
+  width: 169%;
+  background-repeat: no-repeat;
+  margin-left: -35%;
+  margin-top:-23%;
+  height: 140vh;
+  object-fit:scale-down;
 }
 .itemNav {
   padding: 15px;
 }
-
-/* added neon effect to title and hover effect to navlinks */
-.navbar-brand{
-  text-shadow: 0px 0px 10px white;
-  -webkit-text-stroke: 1px #7dcefd;
-}
-
-a.nav-link:hover{
-  text-shadow: 0px 0px 10px white;
--webkit-text-stroke: 1px #7dcefd;
-}
-
-img.card-img-top:hover{
-  
-}
-
 .gallery-head {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   padding-bottom: 5%;
   margin-top: 15%;
   text-transform: uppercase;
+  color:white;
+  text-shadow: 1px 1px 1px #000;
 }
 .lead {
   font-size: 1.5rem;
@@ -91,7 +83,6 @@ img.card-img-top:hover{
 }
 .backToTop {
   margin-left: 49%;
-
   color: #000000;
   padding: 0.6%;
   border-radius: 50%;
@@ -111,17 +102,4 @@ img.card-img-top:hover{
   .navTitle {
     padding-left: 3px;
   }
-}
-
-
-
-/* imageing hovering effect */
-.card-img-top {
-	width: 300px;
-	height: auto;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.card-img-top:hover {
-	width: 350px;
 }
