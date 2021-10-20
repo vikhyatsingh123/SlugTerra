@@ -21,6 +21,35 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+#scroll-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: white;
+  height: 60px;
+  width: 60px;
+  z-index: 100000;
+  border-radius: 50%;
+}
+
+#scroll-back:hover{
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+#scroll-back a{
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -29px;
+}
+
 #header {
   background: url('https://i.pinimg.com/originals/a0/5b/e7/a05be72bed7c744f6d8d5b887b924aa6.jpg');
   background-position: center;
