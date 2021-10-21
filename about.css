@@ -19,6 +19,9 @@ h1 {
   margin-bottom: 40px;
   line-height: 14pt;
 }
+h1.about-title b{
+  line-height: 3rem;
+}
 #one {
   background-color: rgb(40, 103, 178);
 }
