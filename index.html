@@ -9,7 +9,18 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="index.css" />
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+<!--   <link rel="stylesheet" href="index.css" /> -->
+
 	<title>SlugTerra</title>
 </head>
 
@@ -38,13 +49,54 @@
 			</ul>
 		</div>
 	</nav>
-	<section id="header" class="jumbotron text-center">
-		<div class="theme">
-			<div class="header-content">
-				<a href="#gallery-title"><i class="fas fa-chevron-down fa-6x gallery-icon"></i></a>
-			</div>
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-center"><img src="images/1.jpg" alt=""><img src="images/menu.png" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br>SlugTerra
+ World</strong></h1>
+							
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="images/3.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br> SlugTerra
+ World</strong></h1>
+							
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="images/2.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br> SlugTerra
+ World</strong></h1>
+							
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
 		</div>
-	</section>
+	</div>
+	<!-- End slides -->
 
 	<div id="gallery-title"></div>
 	<div id="" class="gallery-div">
@@ -292,6 +344,22 @@
               </div>
             </div>
           </div>
+		  
+		  <div class="col-lg-4 mb-4">
+					<div class="card">
+						<img class="card-img-top" src="images/beeker.png" alt="Bulbasaur" />
+						<div class="card-body">
+							<h5 class="card-title">Beeker</h5>
+							<p class="card-text">
+								Beeker was used repeatedly in "Deep Water, Dark Water" due to
+								him being an amphibious Slug, therefore not needing a Torpedo
+								Shell to be fired successfully
+							</p>
+							<a href="https://github.com/kobigan1223" class="btn btn-outline-danger btn-sm">Contributed by - Kobigan</a>
+						</div>
+					</div>
+				</div>
+		  
           <div class="col-lg-4 mb-4">
             <div class="card">
               <img
@@ -1575,5 +1643,29 @@
 			$(".navbar-collapse").collapse("hide");
 		});
 	</script>
+
+<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script src="indexdarkmode.js">
+    </script>
+    <script src="searchbar.js"></script>
+    <script src="./scrollEffect.js"></script>
+
+    <script src="scrolltotop.js"></script>
 </body>
 </html>
+
