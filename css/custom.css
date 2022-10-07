@@ -1,2 +1,58 @@
-
 /** ADD YOUR AWESOME CODES HERE **/
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1pxsolidrgba (0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 100%;
+  overflow: hidden;
+}
+.card :hover p.card-text:hover {
+  overflow-y: scroll;
+}
+.card-body {
+  height: 250px;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.card .card-img-top {
+  width: 85%;
+  max-height: 60%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  padding: 2rem;
+}
+p.card-text {
+  white-space: normal;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  height: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p.card-text::-webkit-scrollbar {
+  width: 10px;
+}
+p.card-text::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+p.card-text::-webkit-scrollbar-thumb {
+  background: #888;
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    max-height: 600px;
+  }
+}
