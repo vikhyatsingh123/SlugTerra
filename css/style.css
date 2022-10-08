@@ -19,10 +19,13 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    color: #4f4747;
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
+    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
+
 }
 
 
@@ -177,6 +180,7 @@ button:focus{
 	font-size: 18px;
 	padding: 0px 20px;
 	border-radius: 4px;
+    
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
@@ -313,7 +317,7 @@ button:focus{
 .about-section-box .img-fluid{
 	box-shadow: -10px -10px 0px #FF4F04;
 }
-.inner-column{}
+
 .inner-column h1{
 	font-family: 'Arbutus Slab', serif;
 	font-size: 30px;
@@ -463,7 +467,9 @@ button:focus{
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
-
+/* .gallery-head1{
+    color: darkslategray;
+} */
 .gallery-box{
 	padding: 70px 0px;
 }
@@ -1299,6 +1305,21 @@ blockquote {
 	padding: 70px 0px;
 }
 
+.white{
+    color: black !important;
+}
+.whitebg{
+    background-color: #000106;
+    border-radius: 8px;
+}
+.black{
+    color: white;
+}
+.blackbg{
+    background-color: white;
+    border-radius: 8px;
+}
+
 .map-full {
     width: 100%;
     height: 500px;
@@ -1326,13 +1347,23 @@ blockquote {
 }
 
 
+#icon{
+    width: 30px;
+    cursor: pointer;
+
+}
 
 
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
 
 
-
-
-
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
 
 
 
