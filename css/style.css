@@ -112,6 +112,8 @@ a,
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    width: 100%;
+    overflow: hidden;
 }
 
 .btn-custom {
@@ -255,7 +257,7 @@ button:focus {
 
 .btn {
     text-transform: uppercase;
-    padding: 19px 36px;
+    padding: 1rem !important;
 }
 
 .btn {
