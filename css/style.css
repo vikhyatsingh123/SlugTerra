@@ -495,7 +495,12 @@ button:focus {
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
-
+@media(prefers-color-scheme: dark)
+{
+    #gallery{
+        background-color:#222f3e;
+    }
+}
 .gallery-head {
     color: orange;
     font-weight: bold;
