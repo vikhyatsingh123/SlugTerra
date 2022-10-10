@@ -496,11 +496,11 @@ button:focus {
     Gallery
 -------------------------------------------------------------------*/
 #gallery{
-    background-color:dark;
+    background-color:black;
 }
 .gallery-head {
     color: orange;
-     background-color:dark;
+     background-color:black;
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
