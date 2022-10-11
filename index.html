@@ -11,13 +11,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
 
 	<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="chttps://github.com/vikhyatsingh123/SlugTerra/pull/169/conflict?name=index.html&ancestor_oid=67ebb0018f25df8d01452ecaad048b2d15948ec9&base_oid=5e5529351e3ab6e742c07da642a56511d73896f1&head_oid=46b108131691e9df7fd87102fd6ad006d001bcc6ss/bootstrap.min.css">
 	<!-- Site CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+    <!--<script src="js/index.js"></script>--> 
+
     <!-- Favicon -->
 	<link rel="icon" type="image/x-icon" href="images/logo-16.png">
 <!--   <link rel="stylesheet" href="index.css" /> -->
@@ -39,15 +41,16 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item itemNav">
-					<a class="nav-link" href="#header">Home</a>
+					<a class="nav-link  " id="navbarlink" href="#header">Home</a>
 				</li>
 				<li class="nav-item itemNav">
-					<a class="nav-link" href="#gallery-title">Slugs</a>
+					<a class="nav-link  " id="navbarlink" href="#gallery-title">Slugs</a>
 				</li>
 				<li class="nav-item itemNav">
-					<a class="nav-link" href="about.html">About</a>
+					<a class="nav-link " id="navbarlink" href="about.html">About</a>
 				</li>
 			</ul>
+      <img src="images/moon.png" id="icon" class="iconbtn">
 		</div>
 	</nav>
   
@@ -102,6 +105,7 @@
 
 	<div id="gallery-title"></div>
 	<div id="" class="gallery-div">
+		<h1 class="gallery-head1">Slugs - gallery</h1>
 		<h1 class="gallery-head">Slugs - Gallery</h1>
 	</div>
 	<section id="gallery">
@@ -1992,7 +1996,10 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-	<script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <script>
+  
 		$(".navbar-nav>li>a").on("click", function() {
 			$(".navbar-collapse").collapse("hide");
 		});
@@ -2020,5 +2027,40 @@
     <script src="./scrollEffect.js"></script>
 
     <script src="scrolltotop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+ <script>
+  var icon = document.getElementById("icon");
+  var nav = document.querySelectorAll("a.nav-link");
+  var logo = document.querySelector(".navbar-brand");
+  var btn = document.querySelector(".iconbtn");
+
+  icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      nav.forEach(element => {
+        element.classList.add("white");
+        element.classList.remove("black");
+      });
+      logo.classList.add("white");
+      logo.classList.remove("black");
+      btn.classList.add("whitebg");
+      btn.classList.remove("blackbg");
+      icon.src = "images/sun.png";
+    }else{
+      nav.forEach(element => {
+        element.classList.add("black");
+        element.classList.remove("white");
+      });
+      logo.classList.add("black");
+      logo.classList.remove("white");
+      btn.classList.add("blackbg");
+      btn.classList.remove("whitebg");
+      icon.src = "images/moon.png";
+    }
+  }
+ </script>
+    
+
 </body>
 </html>
