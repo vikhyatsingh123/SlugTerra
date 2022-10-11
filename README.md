@@ -28,17 +28,20 @@ Follow these steps to make your very first Pull request.
 Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémons!
 
 Code - 
-
                 <div class="col-lg-4 mb-4">
-                    <div class="card">
-                        <img class="card-img-top" src="[Link to Slug image]" alt="">
-                        <div class="card-body">
+                    <div class="card shadow">
+                        <img class="card-img-top" src="[Link to Slug image]" alt="Bulbasaur" />
+                        <div class="card-body mb-3">
                             <h5 class="card-title">[Name of your Slug]</h5>
                             <p class="card-text">[Small Description about your Slug]</p>
-                            <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">Contributed by - [Add your Github Username/profile name]</a>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">
+                                Contributed by - [Add your Github Username/profile name]
+                            </a>
                         </div>
                     </div>
-                </div>
+                </div>                
 
 Copy this code and paste it in the index.html file to make your changes. Try and test it on your own system and then create a Pull request
 
