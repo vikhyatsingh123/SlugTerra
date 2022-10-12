@@ -56,3 +56,27 @@ p.card-text::-webkit-scrollbar-thumb {
     max-height: 600px;
   }
 }
+
+/* css to style the scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  border-radius:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eae4e4;
+  border-radius:5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff4f04; 
+  border-radius:5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4f00; 
+}
