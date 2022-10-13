@@ -16,17 +16,24 @@
   overflow: hidden;
 }
 .card :hover p.card-text:hover {
-  overflow-y: scroll;
+  overflow-y: scroll !important;
 }
+
+.card:hover{
+  border-color: #FF4F04 !important;
+  scale: 105%;
+}
+
+
 .card-body {
-  height: 250px;
+  /* height: 250px; */
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
 }
 .card .card-img-top {
   width: 85%;
-  max-height: 60%;
+  max-height: 320px !important;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
   padding: 2rem;
@@ -38,7 +45,7 @@ p.card-text {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   height: 110px;
-  overflow: hidden;
+  overflow: hidden !important;
   text-overflow: ellipsis;
 }
 
