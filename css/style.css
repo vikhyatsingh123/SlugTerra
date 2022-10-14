@@ -107,13 +107,12 @@ a,
 .btn {
     text-decoration: none !important;
     outline: none !important;
+     color: black;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    width: 100%;
-    overflow: hidden;
 }
 
 .btn-custom {
@@ -257,7 +256,7 @@ button:focus {
 
 .btn {
     text-transform: uppercase;
-    padding: 1rem !important;
+    padding: 19px 36px;
 }
 
 .btn {
@@ -655,152 +654,8 @@ button:focus {
     font-weight: 300;
 }
 
-/*------------------------------------------------------------------
-    Footer
--------------------------------------------------------------------*/
 
-.footer-area {
-    padding-top: 50px;
-    padding-bottom: 0px;
-}
 
-.bg-f {
-    background-image: url("../images/footer-bg.jpg");
-    background-attachment: scroll;
-    background-clip: initial;
-    background-color: rgba(0, 0, 0, 0);
-    background-origin: initial;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.bg-f::before {
-    background: #010101;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    opacity: 0.8;
-}
-
-.footer-area .container {
-    position: relative;
-    z-index: 1;
-}
-
-.footer-area h3 {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 24px;
-    border-bottom: 1px dashed rgba(207, 166, 113, 0.5);
-    margin-bottom: 10px;
-}
-
-.footer-area p {
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.8);
-    margin: 0;
-    padding-bottom: 10px;
-}
-
-.footer-area p.lead {
-    font-size: 19px;
-    color: #ffffff;
-    margin-bottom: 15px;
-}
-
-.footer-area p.lead a {
-    color: #ffffff;
-    margin-bottom: 15px;
-}
-
-.footer-area p.lead a:hover {
-    color: #FF4F04;
-}
-
-.footer-area p a {
-    font-size: 18px;
-    color: #ffffff;
-}
-
-.footer-area p a:hover {
-    /* color: #d0a772; */
-    color: #FF4F04;
-}
-
-.subscribe_form {
-    display: block;
-    text-align: center;
-    padding: 5px 0;
-}
-
-.subscribe_form .form_input {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    border: none;
-    font-size: 19px;
-    line-height: 50px;
-    padding: 0 10px;
-    float: left;
-    width: 100%;
-    transition: all 0.5s ease-in-out;
-}
-
-.subscribe_form .submit {
-    background-color: #FF4F04;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 50px;
-    display: inline-block;
-    padding: 0 10px;
-    float: left;
-    width: 100%;
-    border: none;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
-
-.subscribe_form .submit:hover {
-    background: #010101;
-}
-
-.f-social {
-    padding-bottom: 10px;
-    margin: 0px;
-    margin-top: 20px;
-}
-
-.f-social li a {
-    font-size: 25px;
-    color: rgba(255, 255, 255, 0.9);
-    margin-right: 10px;
-}
-
-.copyright {
-    margin-top: 20px;
-    position: relative;
-    display: block;
-    background-color: #010101;
-    border-top: 1px dashed rgba(207, 166, 113);
-    padding: 30px 0;
-    z-index: 1;
-}
-
-.copyright .company-name {
-    font-size: 16px;
-    text-align: center;
-}
-
-.copyright .company-name a {
-    font-size: 16px;
-}
 
 /*------------------------------------------------------------------
     All Pages
@@ -1463,9 +1318,10 @@ blockquote {
     width: 32px;
     height: 32px;
     text-align: center;
+    color:#010101;
     line-height: 30px;
     background: #FF4F04;
-    color: #ffffff;
+   
     cursor: pointer;
     border: 0;
     border-radius: 2px;
@@ -1473,3 +1329,195 @@ blockquote {
     transition: opacity 0.2s ease-out;
     font-size: 30px;
 }
+/*------------------------------------------------------------------
+    Footer
+-------------------------------------------------------------------*/
+
+/* CSS Comments
+----------------------------------*/
+*{
+    padding:0px; margin:0px;
+    box-sizing: border-box;
+  }
+  /* Add a black background color to the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+  
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #0b0f11;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /*
+  -------------------------------------------------------*/
+  .footer-dark {
+    padding-top:30px ;
+    padding-bottom:10 px;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  
+  
