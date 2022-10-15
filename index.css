@@ -78,14 +78,20 @@ body {
 }
 
 .card {
-  background-color: #222;
-  color: wheat;
-  margin:20px;
-  border-radius: 0;
-  height: 100%;
-  box-shadow: 3px 3px 1px #e92929, 5px 5px 1px 
-  #a2e946,7px 7px 1px #297ce9, 9px 9px 1px #e92999;
-  transition: all 0.5s;
+ position:relative;
+    text-align: center;
+    width:250px;
+    padding:40px;
+    font-size:35px;
+    color:#15f4ee;
+    font-family: poppins;
+    font-weight:400;
+    border:5px solid #15f4ee;
+    text-transform:uppercase;
+    letter-spacing: 15px;
+    cursor:pointer;
+    border-radius: 100px;
+    transition:1.5s;
 }
 
 .card-text{
@@ -93,10 +99,7 @@ body {
 }
 
 .card:hover{
-  box-shadow: 10px 10px 1px #e92929, 20px 20px 1px 
-  #a2e946,30px 30px 1px #297ce9, 40px 40px 1px #e92999;
-  transform: scale(0.95);
-  z-index: 100;
+box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 }
 
 .theme{
@@ -149,6 +152,6 @@ body {
     font-size: 2rem;
   }
   .navTitle {
-    padding-left: 3px;
+    padding-left: 6px;
   }
 }
