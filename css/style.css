@@ -43,14 +43,17 @@ h3,
 h4,
 h5,
 h6 {
-    letter-spacing: 0;
-    font-weight: normal;
-    position: relative;
-    padding: 0 0 10px 0;
-    font-weight: normal;
-    line-height: 120% !important;
-    color: #1f1f1f;
-    margin: 0
+    color: #fff !important;
+    font-size: 24px;
+    position:relative;
+    text-align: center;
+    width:250px;
+    padding:40px;
+    font-size:35px;
+    color:#15f4ee;
+    font-family: poppins;
+    font-weight:400;
+   
 }
 
 h1 {
@@ -94,7 +97,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    opacity: .8
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 }
 
 a {
@@ -105,15 +108,15 @@ a {
 
 a,
 .btn {
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    width: 100%;
-    overflow: hidden;
+     margin-top: 1rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #1179e7;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-custom {
@@ -881,7 +884,7 @@ button:focus {
 }
 
 .our-team:hover:before {
-    transform: translateY(-50%) scaleX(0.7);
+    transform: translateYZ(-90%) scaleZ(0.6);
 }
 
 .our-team:hover:after {
