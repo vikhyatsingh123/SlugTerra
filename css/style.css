@@ -209,6 +209,16 @@ button:focus {
     background: #FF4F04;
 }
 
+.navTitle img{
+    width: auto;
+    height: 50px;
+}
+
+.navbar .navTitle{
+    width: 60%;
+}
+
+
 /*------------------------------------------------------------------
     Slider
 -------------------------------------------------------------------*/
@@ -236,7 +246,11 @@ button:focus {
 }
 
 .slides-navigation a:hover {
-    background: #010101;
+    background: #ffffff;
+}
+
+.slides-navigation a:hover i{
+    color: #FF4F04;
 }
 
 .cover-slides .container {
@@ -334,7 +348,7 @@ button:focus {
     box-shadow: -10px -10px 0px #FF4F04;
 }
 
-.inner-column {}
+/* .inner-column {} */
 
 .inner-column h1 {
     font-family: 'Arbutus Slab', serif;
@@ -655,11 +669,44 @@ button:focus {
     font-weight: 300;
 }
 
+/* Elemental Slugs  */
+.elemental{
+    width: auto;
+    height: 40px;
+}
 /*------------------------------------------------------------------
     Footer
 -------------------------------------------------------------------*/
+.footer{
+    background-color: #FF4F04;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
 
-.footer-area {
+.back-to-top{
+    height: 60px;
+    width: 60px;
+    background: #FF4F04;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top i{
+    font-size: 3rem; 
+    color: #ffffff;   
+    /* height: 50px;
+    width: 50px; */
+}
+/* .footer-area {
     padding-top: 50px;
     padding-bottom: 0px;
 }
@@ -729,9 +776,9 @@ button:focus {
 }
 
 .footer-area p a:hover {
-    /* color: #d0a772; */
+    /* color: #d0a772; 
     color: #FF4F04;
-}
+}*/
 
 .subscribe_form {
     display: block;
@@ -760,7 +807,7 @@ button:focus {
     line-height: 50px;
     display: inline-block;
     padding: 0 10px;
-    float: left;
+    /* float: left; */
     width: 100%;
     border: none;
     cursor: pointer;
@@ -800,7 +847,7 @@ button:focus {
 
 .copyright .company-name a {
     font-size: 16px;
-}
+} */
 
 /*------------------------------------------------------------------
     All Pages
