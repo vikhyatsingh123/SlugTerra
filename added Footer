@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+        body{
+            background-color: aqua;
+        }
+        header h1{
+            text-align: center;
+            background-color: black;
+            color: azure;
+            padding: 50px;
+        }
+        .img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            border-radius: 50%;
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            padding: 33px;
+        }
+        footer{
+            display: flex;
+            background-color: rgb(58, 58, 58);
+            overflow: hidden;
+        }
+        footer a{
+            display: block;
+            color: antiquewhite;
+            text-decoration: none;
+            padding: 14px 20px;
+            float: left;
+        }
+        .foot-btn:hover{
+            background-color: white;
+            color: black;
+        }
+        .about_user{
+            color: azure;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background-color: black;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        #align-right{
+            margin-left: auto;
+        }
+        @media screen and (max-width:700px) {
+            footer{
+                flex-direction: column;
+            }
+            #align-right{
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header><h1>ADDING FOOTER SOLUTION</h1></header>
+<main>
+    <section>
+        <div class="img">user photo</div>
+        <p class="about_user">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, necessitatibus animi. Dolores exercitationem voluptatum, a vero suscipit cum iusto culpa doloremque? Sint dolores sed qui eos rerum. Excepturi, commodi dolore dolorum delectus accusamus, eos odio suscipit aut harum pariatur quaerat sequi dolorem minus ipsum, eum optio omnis quis quos eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum error incidunt aspernatur ullam. Inventore beatae omnis in facere hic odio magni, a repudiandae quidem! Ipsa eveniet error eos adipisci, cupiditate corrupti incidunt ullam autem in sunt optio facilis soluta? Qui nihil, blanditiis at facilis itaque beatae obcaecati ratione laborum molestias earum. Inventore ad dignissimos at adipisci, explicabo illum, enim reiciendis voluptatum rerum necessitatibus quibusdam expedita eligendi. Soluta minus corrupti mollitia rem nostrum vel accusamus tempore praesentium molestiae quaerat quam architecto in esse ad excepturi dolorum, consequatur suscipit quo, nesciunt, quibusdam qui! Officia rem molestias vitae fugit dolor debitis voluptate praesentium.</p>
+    </section>
+</main>
+    <footer>
+        <a class="foot-btn" href="#">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="foot-btn" href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="foot-btn" href="#">Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="foot-btn" href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="foot-btn" href="#">Refund Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="foot-btn" id="align-right" href="#">&copy; 2020|my college</a>
+    </footer>
+</body>
+</html>
