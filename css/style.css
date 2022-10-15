@@ -19,7 +19,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    background-color: #25163d;
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
@@ -1520,3 +1520,69 @@ blockquote {
     transition: opacity 0.2s ease-out;
     font-size: 30px;
 }
+/* GlowBall CSS */
+.Explore{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 300px;
+     margin-top: 100px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+  }
+  .explore{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 300px;
+     margin-top: 210px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+  }
+  .explor{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 300px;
+     margin-top: 120px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+  }
+  @keyframes anime{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  } 
