@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        header{
+            background-color: rgb(34, 71, 45);
+            color:aliceblue;
+            text-align: center;
+            font-size: 2em;
+            padding: 40px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column ;
+            
+        }
+        .item{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .subitem{
+            background-color: aliceblue;
+            margin: 10px 20px;
+            width: 33%;
+            margin-top: 50px;
+            border: solid rgb(215, 211, 211);
+            padding: 20px;
+            box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+            border-radius: 10px;
+            flex: 1 1 21rem;
+        }
+        section h2{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .about{
+            padding: 10px;
+            background: linear-gradient(90deg, rgba(251,173,4,1) 0%, rgba(231,212,63,1) 52%, rgba(250,255,0,1) 100%);
+            border-radius: 10px;
+            color: white;
+            box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+
+        }
+        .subitem:hover{
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,4,250,1) 0%, rgba(213,8,254,1) 47%, rgba(251,178,228,1) 100%);
+            transform: scale(1.1);
+            color: white;
+            box-shadow: 8px 8px 5px rgb(0,0,0,0.3);
+        }
+        .img{
+            border-radius: 10px;
+        }
+        .button{
+            display: inline-block;
+            text-decoration: none;
+            background-color: rgb(69, 69, 230);
+            color: azure;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgb(0,0,0,0.3);
+        }
+        .subitem p{
+            margin-bottom: 20px;
+        }
+        .button:hover{
+            background-color: azure;
+            color:rgb(69, 69, 230); ;
+        }
+    </style>
+</head>
+<body>
+<header>Project for Vikhyat Singh</header>
+    <!--As the issue is for about section, I'm not adding the navigation bar here-->
+<section>
+    <h2><span class="about">ABOUT</span></h1>
+    <div class="container">
+    <div class="item">
+        <div class="subitem">
+            <img class="img" src="#" alt="img 1">
+            <h2>Heading 1</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quo blanditiis natus necessitatibus, dolor explicabo in nulla nostrum ratione unde id totam sunt voluptas ullam! Quidem pariatur quae minima ut rem, repellat, perspiciatis laborum suscipit quos eius ipsam doloremque possimus dolor, atque laboriosam quaerat laudantium corrupti illum eos in non?</p>
+            <div id="button"><a class="button" href="#">Go Somewhere</a></div>
+        </div>
+        <div class="subitem">
+            <img class="img" src="#" alt="img 2">
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ullam alias libero est repellendus! Harum nostrum, soluta beatae consequatur dolorum doloremque, earum eveniet reprehenderit doloribus laudantium id hic, debitis natus quasi eos optio perferendis illum rerum distinctio possimus blanditiis! Magni placeat, enim voluptates possimus omnis nisi se.</p>
+            <div id="button"><a class="button" href="#">Go Somewhere</a></div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="subitem">
+            <img class="img" src="#" alt="img 3">
+            <h2>Heading 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ut porro tempora voluptatem itaque repellat temporibus tenetur amet cumque, nisi explicabo, culpa dolore. At mollitia recusandae quod similique temporibus veritatis cumque quasi explicabo repellendus laboriosam? Aut voluptatum quis natus, ea numquam omnis reiciendis id libero consequatur ducimus. </p>
+            <div id="button"><a class="button" href="#">Go Somewhere</a></div>
+        </div>
+        <div class="subitem">
+            <img class="img" src="#" alt="img 4">
+            <h2>Heading 4</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quo blanditiis natus necessitatibus, dolor explicabo in nulla nostrum ratione unde id totam sunt voluptas ullam! Quidem pariatur quae minima ut rem, repellat, perspiciatis laborum suscipit quos eius ipsam doloremque possimus dolor, atque laboriosam quaerat laudantium corrupti illum eos in non?</p>
+            <div id="button"><a class="button" href="#">Go Somewhere</a></div>
+        </div>
+    </div>    
+    </div>
+</section>
+</body>
+</html>
