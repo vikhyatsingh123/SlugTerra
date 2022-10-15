@@ -43,14 +43,12 @@ h3,
 h4,
 h5,
 h6 {
-    letter-spacing: 0;
-    font-weight: normal;
-    position: relative;
-    padding: 0 0 10px 0;
-    font-weight: normal;
-    line-height: 120% !important;
-    color: #1f1f1f;
-    margin: 0
+    color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
 }
 
 h1 {
@@ -105,15 +103,23 @@ a {
 
 a,
 .btn {
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    width: 100%;
-    overflow: hidden;
+      position:relative;
+    text-align: center;
+    width:250px;
+    padding:40px;
+    font-size:35px;
+    color:#15f4ee;
+    font-family: poppins;
+    font-weight:400;
+    border:5px solid #15f4ee;
+    text-transform:uppercase;
+    letter-spacing: 15px;
+    cursor:pointer;
+    border-radius: 100px;
+    transition:1.5s;
+}
+.btn:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 }
 
 .btn-custom {
