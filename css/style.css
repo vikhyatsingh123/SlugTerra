@@ -19,7 +19,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    background-color: #25163d;
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
@@ -112,6 +112,8 @@ a,
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    width: 100%;
+    overflow: hidden;
 }
 
 .btn-custom {
@@ -207,6 +209,16 @@ button:focus {
     background: #FF4F04;
 }
 
+.navTitle img{
+    width: auto;
+    height: 50px;
+}
+
+.navbar .navTitle{
+    width: 60%;
+}
+
+
 /*------------------------------------------------------------------
     Slider
 -------------------------------------------------------------------*/
@@ -234,7 +246,11 @@ button:focus {
 }
 
 .slides-navigation a:hover {
-    background: #010101;
+    background: #ffffff;
+}
+
+.slides-navigation a:hover i{
+    color: #FF4F04;
 }
 
 .cover-slides .container {
@@ -255,7 +271,7 @@ button:focus {
 
 .btn {
     text-transform: uppercase;
-    padding: 19px 36px;
+    padding: 1rem !important;
 }
 
 .btn {
@@ -332,7 +348,7 @@ button:focus {
     box-shadow: -10px -10px 0px #FF4F04;
 }
 
-.inner-column {}
+/* .inner-column {} */
 
 .inner-column h1 {
     font-family: 'Arbutus Slab', serif;
@@ -653,11 +669,44 @@ button:focus {
     font-weight: 300;
 }
 
+/* Elemental Slugs  */
+.elemental{
+    width: auto;
+    height: 40px;
+}
 /*------------------------------------------------------------------
     Footer
 -------------------------------------------------------------------*/
+.footer{
+    background-color: #FF4F04;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
 
-.footer-area {
+.back-to-top{
+    height: 60px;
+    width: 60px;
+    background: #FF4F04;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top i{
+    font-size: 3rem; 
+    color: #ffffff;   
+    /* height: 50px;
+    width: 50px; */
+}
+/* .footer-area {
     padding-top: 50px;
     padding-bottom: 0px;
 }
@@ -727,9 +776,9 @@ button:focus {
 }
 
 .footer-area p a:hover {
-    /* color: #d0a772; */
+    /* color: #d0a772; 
     color: #FF4F04;
-}
+}*/
 
 .subscribe_form {
     display: block;
@@ -758,7 +807,7 @@ button:focus {
     line-height: 50px;
     display: inline-block;
     padding: 0 10px;
-    float: left;
+    /* float: left; */
     width: 100%;
     border: none;
     cursor: pointer;
@@ -798,7 +847,7 @@ button:focus {
 
 .copyright .company-name a {
     font-size: 16px;
-}
+} */
 
 /*------------------------------------------------------------------
     All Pages
@@ -1471,3 +1520,69 @@ blockquote {
     transition: opacity 0.2s ease-out;
     font-size: 30px;
 }
+/* GlowBall CSS */
+.Explore{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 300px;
+     margin-top: 100px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+  }
+  .explore{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 300px;
+     margin-top: 210px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+  }
+  .explor{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 300px;
+     margin-top: 120px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+  }
+  @keyframes anime{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  } 
