@@ -2,6 +2,30 @@
   width: 15px;
 }
 
+.card-title{
+  color: Red;
+}
+
+.next{
+  padding: 3px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.background-image{
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+.prev{
+  padding: 3px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(black, #8bf2d5);
   border-radius: 10px;
