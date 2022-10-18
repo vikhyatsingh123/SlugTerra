@@ -106,7 +106,7 @@ a,
       position:relative;
     text-align: center;
     width:250px;
-    padding:40px;
+    /* padding:40px; */
     font-size:35px;
     color:#15f4ee;
     font-family: poppins;
