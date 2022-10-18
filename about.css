@@ -33,6 +33,23 @@ h1.about-title b{
 }
 #buttons {
   margin-bottom: 10px;
+    position:relative;
+    text-align: center;
+    width:250px;
+    padding:40px;
+    font-size:35px;
+    color:#15f4ee;
+    font-family: poppins;
+    font-weight:400;
+    border:5px solid #15f4ee;
+    text-transform:uppercase;
+    letter-spacing: 15px;
+    cursor:pointer;
+    border-radius: 100px;
+    transition:1.5s;
+}
+#buttons:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 }
 .navTitle {
   color: #ffffff;
