@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon -->
 	<link rel="icon" type="image/x-icon" href="images/logo-16.png">
-<!--   <link rel="stylesheet" href="index.css" /> -->
+  <link rel="stylesheet" href="index.css">
 
 	<title>SlugTerra</title>
 </head>
@@ -31,8 +31,11 @@
     <a href="#top"></a>
   </div>
 
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-		<a class="navbar-brand navTitle" href="index.html"><i class="fas fa-desktop mr-2"></i>SlugTerra</a>
+	<nav class="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-secondary text-white">
+		<a class="navbar-brand navTitle" href="index.html">
+      <img src="./images/logo/slugterra_logo.png" alt="no img">
+      <!-- <i class="fas fa-desktop mr-2"></i>SlugTerra -->
+    </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -54,38 +57,35 @@
 	<!-- Start slides -->
 	<div id="slides" class="cover-slides">
 		<ul class="slides-container">
-			<li class="text-center"><img src="images/1.jpg" alt=""><img src="images/menu.png" alt="">
+			<li class="text-center"><img src="images/1.jpg" alt="" class="background-image"><img src="images/menu.png" alt="" class="background-image">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br>SlugTerra
+							<h1 class="m-b-20"><strong>Welcome To <br><br>SlugTerra
  World</strong></h1>
 
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="about.html">Read More</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="images/3.jpg" alt="" class="background-image">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Welcome To <br><br> SlugTerra World</strong></h1>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a></p>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li class="text-center">
-				<img src="images/3.jpg" alt="">
+				<img src="images/2.jpg" class="background-image" alt style="backface-visibility: hidden;position: absolute;left: 0px;top: 74.3px;z-index: -1;max-width: none;height: 853.808px;width: 1519.2px;">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> SlugTerra
- World</strong></h1>
-
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="text-center">
-				<img src="images/2.jpg" alt="">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> SlugTerra
- World</strong></h1>
+							<h1 class="m-b-20"><strong>Welcome To <br><br> SlugTerra World</strong></h1>
 
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#gallery-title">Read More</a></p>
 						</div>
@@ -104,9 +104,36 @@
 	<div id="" class="gallery-div">
 		<h1 class="gallery-head">Slugs - Gallery</h1>
 	</div>
+  <!-- GlowBall DIV -->
+  <div class="Explore"></div>
 	<section id="gallery">
 		<div class="container">
 			<div class="row">
+	                       <div class="col-lg-4 mb-4">
+                                       <div class="card">
+                                                <img class="card-img-top" src="images/joker.webp" alt="">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Joker</h5>
+                                                        <p class="card-text">Joker is Eli Shane's Gazzer.He debuts in Slug Fu Showdown despite Eli owns a Gazzer in "Bandoleer of Brothers".</p>
+                                                        <a href="https://github.com/Aniruddh-Singh" class="btn btn-outline-danger btn-sm">Contributed by - Aniruddh Singh</a>
+                                                </div>
+                                        </div>
+                                </div>
+				<div class="col-lg-4 mb-4">
+					<div class="card">
+						<img class="card-img-top" src="images/rarity.webp" alt="Enigmo" />
+						<div class="card-body">
+							<h5 class="card-title">Enigmo</h5>
+							<p class="card-text">
+								Enigmo is an endangered, ultra rare, species of Slug with a pair 
+                of vertically stacked eyes. These slugs are so rare that they were 
+                considered a legend. At Velocity, it transforms into an Aztec-like 
+                creature that causes blurred double-vision in whoever it hits.
+							</p>
+							<a href="https://github.com/saurabhtopthon01/" class="btn btn-outline-danger btn-sm">Contributed by - Saurabh</a>
+						</div>
+					</div>
+				</div>
 				<div class="col-lg-4 mb-4">
 					<div class="card">
 						<img class="card-img-top" src="images/burphy.jpg" alt="Burphy" />
@@ -215,6 +242,7 @@
 						</div>
 					</div>
         </div>
+				           
           <div class="col-lg-4 mb-4">
             <div class="card">
               <img
@@ -312,7 +340,7 @@
 
 				 <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/9/99/Shadow_clan.png/revision/latest/scale-to-width-down/185?cb=20130124233742" alt="">
+                    <img class="card-img-top" src="./images/shadow.png" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Shadow clan</h5>
                         <p class="card-text">The Shadow Clan have been displayed as territorial and are prone to aggressively defend their Territory by grabbing Slugs on their back and throwing with their tails.</p>
@@ -361,9 +389,10 @@
               </div>
             </div>
           </div>
+          <div class="Explore"></div>
           <div class="col-lg-4 mb-4">
             <div class="card">
-                <img class="card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhMVFRUXGRYVFRcXGBcVFRUXFhcWGBYVFRYYHSggGBsmHRUVIjIhJykrLi4wFx8zODMtNygtLisBCgoKDg0OGhAQGi0mHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLf/AABEIANoAlgMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwMEBQYIAgH/xABHEAABAwICBgYIAgYIBwEAAAABAAIDBBEFIQYHEjFBURMiYXGBkRQjMkJSobHBctEzU2KCkqIVQ2Nzk8LS4RYXJGSys/AI/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAQCAwUBBv/EAC8RAAIBAgUBBgYCAwAAAAAAAAABAgMRBBIhMUFRBRNhcZHwIjKhsdHhFIEjQsH/2gAMAwEAAhEDEQA/AJxREQAREQAREQARW1bXRwt25ZGRt5vcGjuuVpGKa1aWMlsUcktveu2Nh7i/M+SCynSqVHaEW/IkBFFf/N//ALMW/vxf/wBaydDrPjd+lpZ477i3Zlb3kgg/JcbSL54HEwV5U36fgkFFhMP0po58o6iO+Q2XHo33PANfYnwWbXRVprRhERBwIiIAIiIAIiIAIiIAIiIAKwxnEmU0Ek8h6sbS49vIDtJsPFX60TXHTSvw49ECQ2Rj5AP1YDr94BLT4Lq1OpXdiHdJdJpqyUyyu/A0ezG3gGj771hhKrWSULyJEyrLY0s9ko8LgykMo4rbqTTN7WhojiIAsMnfmtEjkV5CUriez8Pird7G/QejilKEYTgmo+a+zMlitWZ5HPcLE3yHCx4Ld9XmsZ0bm0ta+8Z6sczt7eTZDxHC/BR+0XVOtpzytzvkpU6cILu1olt4W0HO0sH31GM4q1ltyl+uTqgG+YVriWIRU8bpZnhjG73H/wCzPYov1OaZOef6PnddwBMDycyBvjPcMwrzXy2X0SBzb9E2X1oG65bZhP8AN5rlrOzPKOLUsrMpHrVoS8NtOATbbLBsDtNnbVvBbxFIHAOaQQQCCMwQcwQuVaWUFoPIroPVi9xwymL732XWvv2RI8N+Vl1xsPYzC0qNOnOnK+ZarTT0NrREUTPCIiACIiAC17SbS6mobCUuc92bY2AF5HxZkADtJWwrmrWDXSjEKrpLgiRwBP6sG0duzZsupN6IYw1OnOpao2lvpu/BcepKNJrYpiSJYZY+RFn377WssrQawcPnOwZdguytK0tBvzJu23eVzzhNLUVcvRU0bpX2JsOAHEk5BXVfQVNK4MqYXxF17B4sHAby07irckdrlk6VCU2oNrpezJW0+1fYaylqK1rXRODNtvRu9WXG2z1d1iSNx4qCgVslRjVSaY0omcYHEOMZz3ZgNJzAvwWuPhcM7IUXHc4qcoaMuIXK+pljIHZrIU6s3VkN4eajJNq/gSDoRR0zjtPeOk4NdYW3br7+9ZLTSnpmxku/SH2A3Z2uOZ7FHkVxmvdXI4+0TfiSbn5rBqdiznjFXdWXl4dE+nhb+zWnFSf8pVHbps79FwvS9ixpK/0eeOePJ0b2vHgc/kun6sQVNMTKA6CSPadtbiwt2rnllmuUKrM2HFZr/iStdT+hmoeYDYFpNzst3MDt4b2bsltSg29DAxEXVqOSW5aBjfWbAswudsDf1bnZ+Vl1Jg8HR08LLW2Y2NtutZoBXNeB0PTVFPTj+skY09g2hc+V11EuVdLIrxOmWPRBERVCwREQAREQAWBx/RCirSHVMDXuGQdctdbkS0i471nlSnmaxrnuNmtBc4ncABck+CANSxerocEpS+KFjC7JjG+1I7kXHMgcSTkoCx/Gpq2YzzuLnHcPdYODWjgFe6baSvxCqdMSdgXbE3g1g3eJ3nvWC2lfCFtRulTsrvcrMcqgardj1cMerhqOpTkpQc+K+wsLd6uGZqrsLuUkoq9z7FKvE8hKqCJfWwLmbWxe6FVU1Np2fJYxU1s+a9uZZXrmgK2e5dyoqypFKnqpIpGyxuLXsIc1w3ghdDavdMG4jB1rNnZYSs+j2j4T8lzq5ZLRjGpKKpjqWXs02eODmH2mnwVNSF1cVr0syvydTIqNPM2RjXtN2uAc08w4XB8iqyXEAiIgAiIgAtJ1v4kYMNlDcjKWwgjeNq5d/K0jxW7KNtcEPSvoIfddLI53cxrT9/muNpavglBXkkaHozoizYbJO3ac4XDDuA4X7VswwCnIzgj/AIVjMZ0oipnFgb0kg93c1v4j9lr41mStdcsjLeQDvLauszu8VX/yN2T21t6GjKUUjZ6vQemfm1roz+ycvIrWMV0IqIrmO0rezJ38Kz+FazKSXqy3hdzsSzztktzhla4A3Fjm1wza4cLFSWIxNB2k7+ev1/ZFSvsQYGlp2XAtI3gixV0wqXMWwKCpbaRgvweMnDxUe49orNS3eOvF8Q3j8Q+608NjqdX4Xo/fJbCaMXtfJe+HzVtHJcr66TgMzuCYjTtPwNyrj1LC2/2ej9+VjzM9ZDBtHZ6o9Rlm8Xuyb4c1tWjGhO6WqHItj/1/kt7awNAAAa0bgMgk8T2govLT1fXj39PMw51ehqOFaDQRWMnrXdvs+AWYmoI9ks6NuyRa2yLWV/W1kUTNuV4Y3mTa/cOK12o05o9wL3dobl81mSjXr/FqypNt7G86Ay/9IIr36F74b9jbOZ5Ne0eC2VaTq5rmTGofEbxkxOHAhxD2uuOfUC3ZadNtwV9+fMQmrSaCIimRCIiAC0bWJH6+iedzTUfNjT/lK3larrAhvDE/gyZhceTXtfH9XtVdZXpyXgydN/EjmXHKwue5x3vcXO7idy84cIppI4XyCGNzgHyO3MbxOSvMXwstNTcZxFuXG22W37s2rXVY5KTduPwn9mSrfMT5gOKaN4cwBkjJX2s6R0bpXu55hpAHYF5/pOma0VFAXvpHFwkhLSDFY5yQ3zsOLPLkYFU56G4Q6KihjIzeASDzkN7eRSWOqqEYx0vJpaksPFNtvhG000oIFjcEXaRuIO4q4LA4EOAIIsQeKx/oop5XQDJn6WHsaTaRg7ASD3O7FkbpCrT7ubi+C+MsyuRLpngfos/U/Rv6zezm3wV7q6woSzGV4u2MXF/jO7yzV7rTqjtQx2yALr9u5etVlSbzR+7Zru47ltSqTeCzc2/7Yuu8hIQVjWVLy5sULQ+Z9+jaTZrQN8kh4NFx5q8nNm3OQFye4ZlQZXaxqwTzyU0nRCQgNIaC8Rsya0FwyG825krMw9LPLXZC1SeVaE2UOr2N3rMRkFVLe+Y2Ymj4WMJIA+qp4/q6oJYj0DWwyAdR0eTb/tNGRCh7QPF6qprryzSy9R7iHPcRwzAJsN6nTALiEX+J/ltFPQqpVnTS4v7XHvQqaeRVL82NR1JbTJqyF3u7IcOG0xz2m3zUtqLdTLg+fE5ec9gewvmP5KUkzJ3ZCo7yuERFEgEREAFidKaTpaSdgzOwXNHNzOuz+ZoWWRAELV2FRzFlWG7Qezo52/HE8DaI/aabHwUd6SaA1NO7ahY6eF2bHxjbNjuDmjO/buUt0FN6PLNSH+qedj+7f14/kbeCu4mvYfVv2Lm5aRtMPMge6e5YMpV6NRuk1fZp7NLbVbNX8racDkoKauRTodq5qJpWvqYzFC03Idk59vdDeA5kqbaCmBcDbqsyHa7dl2AKjTuL8pZdnsa3Yv8Av3P2WZjaAAG7uFtyuw2GxFeusRinH4fljF3S8X79LFMpKMcsTFaSRdRko3xvaf3X9R9+yzr+CpkKrj87TG6EG75BsgDMjPNx5AKnZXY2zmrdCVK9ixxXBYapobM29txBsR3FVMIwWGlaWwt2b5kk3J7yr2MKpdLqcsuW7t0Lbs1bWVXmDDpiN7wIx2bZsT5XXPsUZcQ1oJJyAAuSeQA3rpjH8NjnbGJWNkY14c5rvZIs5tz3Eg+CYdgdJAdqGGmid8QLL/S6shXrU1alSc/G8Uvrr9CmcU3q7epqmrXRF1JEZZW+vlsA34G8Gnt4lbhpXiHodG7YzkcOiibxdI/IZeJKvY6pjcwTI7mBYDsBOQHisBjbDI/pndZ49XAz3WukOyLc3kkZ+S7hoOg5VKrUqs7XtsukV4Lr97A1mtbSKMnqhwX0ajcd5kkJ2viDAGf+Qet7VphlGIYo4m7mNa2/OwzJ7SbnxV2tUpbu7hERBwIiIAIiIAj3TVnRV8Em4TROYe10Tg658JPkvTLFWeuarETqB/ETP/hLWh31CqUEiysbC1RS6r7afgcou8C9Y3kvZpmngPovQWLq6uaOUHZ24bWswXkDuZud3cl434JMycNM1vstA7gqyxAx9m7Yl/w3/kjsbd7kDz37LfqV2zOWMyF6ssD/AEtP+pA73j7AqvDi77jpIiBzYQ+3eN/kuhZmXsvBjG+wXxk7XC7cwqcslkOxxHiYhUcAj9JrMheOm6zjwMx9hvgLu7CAsTiFe+SVtLTdaeTyjbxkfyAUgaP4OykgbCy5tdz3H2nvd7T3dp/JNYSi2+8ltwQqyssplERFoiwREQAREQAREQBEH/6EPUo/xTfSNXuGydVna1ufgFo+tzGDU10jR7EF4Wjtaeuf4vots0bftUsJ5xs+iR7Ri8kH4v7D1CNo6mxxuXp6t4bqsVm3JNFJ0QXjoVcbK9tiQcuW7YVVEIVYtVMgqQXZ5c+y03THS3obxRZyHyYOZ7VnNIq7oIXyHeBl38FDE8jnOL3G5cSSe1O4LDKq3KWy+rJpEs6iJ9t9YX5ynojtHN2z19oX5X2VL6hbUI319Sf7Ng83f7KaVpyVmI1fnYREUSsIiIAIiIAIiIA5SxXaLnvOZc5zz3lxupM0SN6SD8A+S1jTnBfRaqWFwtG8ukhdwLXG+yDzBJHgsvq3eTSkE5NkcG9xsfqSlu0Lyop9Ga84wUYTg7pr0a3T/v1NyhCuA1eIxYKq1ZKQuz6xq93Xy6+EqRw+uKoyGyqAq3qHgXJNgBcnkAuM6aXrHqLQtZxc75NzUbTFbFpVjHpMpLfZbcM7viPetaqHcB4rfwtPuqSg993/AH+i/I1DM9vft9CS9Q1TarqI/iiDh2lrwP8AMpxXMerPE/R8SpncHu6J3K0g2bnuJB8F04pTWpnVl8YREUCoIiIAIiIAIiIAx2M4NT1bOjqImyN3gO3g8wRmPBRZh76eOvq6elAbC0s2QCSNprQ2SxJN+sN62vWbpb6HCIYj6+UED+zZuL+/gP8AZRBonU9HVM/aDm953/ZQr0s9GT8PsM0IP5iXWFVAVb077gKsCsNFx7JXklfSV4cV0A59lhNKJW+jTBxIBYbkb+5ZOaRaXp9XWibEN7zc/hbn9bK2hBzqxiupJI0HaIFlZPV5MFavXo7JPQsqSbsm9j5DKWOa8ZFpDh4G663w6qEsUco3PYx4/eaHfdciSLpzVlVGXC6R7t/R7P8AA5zB8mhU1OBKutmbQiIqxcIiIAIiIALGaQYxHRwPnl9loyHFzj7LR2krJqHteOIO6Wng9wMdKe1xdsi/cAfNdSu7IspQU5qL2I/x3FZKmZ80pu9xv2Ae60dgGSxcVSWSMf8AC9p8L5qnLKraaRM2WXKaFSS2Wi6dPf7J2wuouB5hZG60LQvFxJC256zeq7ncbj4hbaysHNeYnBwk4vgi1fVGQLlRkkVsahUpJFAFE+zTKLMcxHp6h7r9VvUb3Det40gruigkffMNIHecgotpH5fNa3ZlPVzfl+SS0ZdSi6s3hX0W9W1RHY/Rajms2UZnh5dyqq2vZlnKV0PqVkJwtgPuvkA7r3+5UAYdhstTO2CFpc95AAHzJ5Ac11DojgQoaSKmB2iwdZ3xOcSXHzNu4BVVHwZVd8GbREVQuEREAEREAFr2lGiFLXhvpDXbTcmvY7ZeAd4vut3hbCiATsRydTWH/HU/4jP9CrQ6oMNbvEzvxSfkApARdu+pLNLqRtU6p4Y3dJRTPhfxY/1kb+w7i3vzVhWYBWx+3Tl4GW1EQ+/c32vMKWEVNSjCo7y3JxqyjsQzJUOi/SNki7JI3NPzCtavSGFgu6QdwuT5BTgqcsLXe00O7wD9VR/Chfd/QmsS+iOW9KtJDU2jYC2MG5JyLjwy4BYWmeutJMJp3e1BEe+Nh+y1XSDVfQVN3NYYJD70VgL9rPZ8rJ6jlpxyxWh1YjW7RA8ZVKpfdSRU6natpPRTwvbw2ttjvEAEfNeqLUzUOcOnqImN49GHPd3dYAKxuDlmH12jai6S2fhqXeoKmYRVSbI6RpjaHcQ1wcSB4hTAsLovo3BQQ9DADYnac52bnu5uP2WaVTd3cyZO7bCIi4RCIiACIiACIiACIiACIiACIiACIiACIiACIiACIiACIiAP/9k=" alt="Pieper Slugs
+                <img class="card-img-top" src="./images/ritesh.jfif" alt="Pieper Slugs
                 ">
                 <div class="card-body">
                     <h5 class="card-title">Pieper Slugs
@@ -478,6 +507,19 @@
           </div>
           <div class="col-lg-4 mb-4">
             <div class="card">
+                <img class="card-img-top" src="images/Suds.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Suds</h5>
+                    <p class="card-text">
+                      Suds is a Bubbaleone Slug who belongs to Eli Shane. 
+                      He has been used multiple times to save Pronto and to defeat Captain Malvolio Drake.
+                    </p>
+                    <a href="https://github.com/DayaToledo" class="btn btn-outline-danger btn-sm">Contributed by - DayaToledo</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
               <img
                 class="card-img-top"
                 src="https://vignette.wikia.nocookie.net/slugterra/images/d/da/Juju_Protoform.png/revision/latest?cb=20141109021104"
@@ -578,6 +620,16 @@
               </div>
             </div>
           </div>
+				 <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/Yang.webp" alt="Yang">
+                    <div class="card-body">
+                        <h5 class="card-title">Yang</h5>
+                        <p class="card-text">Yang is a Negashade Slug who belongs to Shanai. She debuts in the episode "The Unbeatable Master" as one of Shanai's favourite slugs.</p>
+                        <a href="https://github.com/AbhishekSingh581" class="btn btn-outline-danger btn-sm">Contributed by - AbhishekSingh581</a>
+                    </div>
+                </div>
+            </div>
           <div class="col-lg-4 mb-4">
             <div class="card">
               <img class="card-img-top" src="https://vignette.wikia.nocookie.net/slugterra/images/7/77/Opening_Chiller.png/revision/latest/scale-to-width-down/310?cb=20121023205533" alt="">
@@ -603,6 +655,21 @@
             </div>
       </div>
 
+				<div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/d/d7/Vin%282%29.png/revision/latest?cb=20160117211517" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Vinedrill</h5>
+                        <p class="card-text">Vinedrill is an uncommon green and white plant 
+				element slug with pinkish eyes that is mainly found in 
+				Wild Spores Cavern who are similar to Neotox Slugs except for the colour schemes. 
+				Vinedrill is a plant Slug and it's power type is plant power, vine, and spore attack.</p>
+                        <a href="https://github.com/xexers742" class="btn btn-outline-danger btn-sm">Contributed by - xexers742</a>
+                    </div>
+                </div>
+            </div>
+				
+				
           <div class="col-lg-4 mb-4">
             <div class="card">
               <img class="card-img-top" src="https://vignette.wikia.nocookie.net/slugterra/images/c/cd/ST_SG_SLUGS_BlastipedeProto.png/revision/latest/scale-to-width-down/310?cb=20131221222125" alt="">
@@ -624,7 +691,7 @@
           </div>
          <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/6/67/Opening_Burpy.png/revision/latest/scale-to-width-down/312?cb=20130414204153" alt="Infurnus">
+                    <img class="card-img-top" src="./images/burphy.jpg" alt="Infurnus">
                     <div class="card-body">
                         <h5 class="card-title">Infurnus</h5>
                         <p class="card-text">Ultra rare fire slugs, Infurnus are extremely rare and powerful fiery types.
@@ -901,7 +968,7 @@
 				</div>
 				 <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/f/f4/Infurnusmega-proto.png/revision/latest?cb=20160117210032" alt="">
+                    <img class="card-img-top" src="./images/burphy.jpg" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Burphy</h5>
                         <p class="card-text">Burpy is an Infurnus Slug from The 99 Caverns and the signature slug of the series' protagonist, Eli Shane.</p>
@@ -924,6 +991,18 @@
 						</div>
 					</div>
 				</div>
+				            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/04/Torkoal-Pok--mon.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Torkoal</h5>
+                        <p class="card-text">Torkoal cannot evolve. On its own, Torkoal is more than capable, though,
+				being able to learn some of the most powerful Fire moves in Pokémon, such as Lava Plume, Flamethrower, and Heat Wave.
+Its Special Defense is lackluster, but its Defense is excellent, providing Torkoal more opportunities to use its fantastic attacks</p>
+                        <a href="https://github.com/adaharshsingh" class="btn btn-outline-danger btn-sm">Contributed by - adaharshsingh</a>
+                    </div>
+                </div>
+            </div>
 				<div class="col-lg-4 mb-4">
 					<div class="card">
 						<img class="card-img-top" src="https://vignette.wikia.nocookie.net/slugterra/images/d/da/Juju_Protoform.png/revision/latest?cb=20141109021104" alt="" />
@@ -954,6 +1033,24 @@
 						</div>
 					</div>
 				</div>
+			
+				<div class="col-lg-4 mb-4">
+					<div class="card">
+						<img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/d/d2/ST_SG_SLUGS_GazzerProto.png/revision/latest?cb=20131221215525" alt="Gazzer SlugTerra" />
+						<div class="card-body">
+							<h5 class="card-title">Gazzers</h5>
+							<p class="card-text">
+								Gazzers are common air slugs, similar in appearance to Armashelt and Crystalyd Slugs. 
+								The only members of the Shane Gang to own a Gazzer is Eli Shane and Kord Zane. In "The Journey Home,"
+								It was first seen making Lode laugh so much that he fired one of his Ghouls at Locke by Kord Zane.
+								A famous Gazzer is Joker who belongs to Eli Shane.
+								A ghouled version of Gazzer has not yet been seen in the show.
+							</p>
+							<a href="https://github.com/1610ayushi" class="btn btn-outline-danger btn-sm">Contributed by - Ayushi Tiwari</a>
+						</div>
+					</div>
+				</div>
+						
 
 				<div class="col-lg-4 mb-4">
 					<div class="card"> <img class="card-img-top" src="https://vignette.wikia.nocookie.net/slugterra/images/d/d7/Vin%282%29.png/revision/latest?cb=20160117211517" alt="Vinedrill">
@@ -1462,7 +1559,7 @@
 
           <div class="col-lg-4 mb-4">
 						<div class="card">
-							<img class="card-img-top" src="data:image/jpeg;base64,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" alt="">
+							<img class="card-img-top" src="./images/hypno.jfif" alt="">
 							<div class="card-body">
 								<h5 class="card-title">hypnogrif</h5>
 								<p class="card-text">Hypnogrif are ultra rare psychic slugs. Hypnogrif are hypnotic slugs that make opponents feel angry, distracted, forgetful, affected by vertigo, or even too happy to care about dueling. A famous Hypnogrif is Dazer</p>
@@ -1696,7 +1793,7 @@
 
        <div class="col-lg-4 mb-4">
           <div class="card">
-            <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/d/d2/Darkfurnus-prot.png/revision/latest/scale-to-width-down/250?cb=20141116180345" alt="Darkfurnus">
+            <img class="card-img-top" src="./images/darkinfurunus.png" alt="Darkfurnus">
             <div class="card-body">
                 <h5 class="card-title">Darkfurnus</h5>
                 <p class="card-text">Darkfurnus are extremely rare and powerful fire ghouls and the ghouled form of Infurnus slugs.</p>
@@ -1733,7 +1830,7 @@
 
       <div class="col-lg-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/3/34/Ghouled_Negashade.png/revision/latest/scale-to-width-down/277?cb=20150421204128" alt="Negablade">
+          <img class="card-img-top" src="./images/Negablade.png" alt="Negablade">
           <div class="card-body">
             <h5 class="card-title">Negablade</h5>
             <p class="card-text">Negablade are the Ghouled version of the Negashade slugs. They're first seen in the Slugterra: Slug It Out! game and
@@ -1781,7 +1878,7 @@
       
 <div class="col-lg-4 mb-4">
   <div class="card">
-      <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/6/67/NegabladeMega-Velocity%282%29.png/revision/latest/scale-to-width-down/1000?cb=20170124013327" alt="Jellyish">
+      <img class="card-img-top" src="./images/Negablade.png" alt="Jellyish">
       <div class="card-body">
           <h5 class="card-title">Nega Blade</h5>
           <p class="card-text">Unlike other ghouls, the Negablade's eyes are a ghostly white as opposed to crimson.
@@ -1794,13 +1891,24 @@
 </div>
   <div class="col-lg-4 mb-4">
   <div class="card">
-      <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/f/f4/Infurnusmega-proto.png/revision/latest?cb=20160117210032" alt="Burpy">
+      <img class="card-img-top" src="./images/burphy.jpg" alt="Burpy">
       <div class="card-body">
           <h5 class="card-title">Burpy</h5>
           <p class="card-text">There's one slug who stands out from all the others, Eli's best slug buddy BURPY. Burpy was part of Will Shane's arsenal until he was sent to find Eli right before Will went missing. He's Eli's faithful companion, an ultimate fire-based weapon, and master slug strategist. He's also the general to Eli's army of slug buddies. Extremely loyal to Eli and more clever than your average slug, Burpy's got slug moves most people have never even seen before!            </p>
           <a href="https://github.com/Imnitesh21" class="btn btn-outline-danger btn-sm">Contributed by Nitesh Mali</a>
       </div>
   </div>
+</div>
+</div>
+<div class="col-lg-4 mb-4">
+<div class="card">
+    <img class="card-img-top" src="./images/Water_Elemental_Slug_Protoform.png" alt="Water Elemental">
+    <div class="card-body">
+        <h5 class="card-title">Guardian Slug</h5>
+        <p class="card-text">TThe Water Elemental is an ancient Elemental Slug and one of the forbearers of the slugs found in SlugTerra. It officially debut in Slugterra: Return of the Elementals.            </p>
+        <a href="https://github.com/ricky2812" class="btn btn-outline-danger btn-sm">Contributed by Debartha Chakraborty</a>
+    </div>
+</div>
 </div>
 	<div class="col-lg-4 mb-4">
                 <div class="card">
@@ -1833,6 +1941,57 @@
       </div>
   </div>
 </div>
+				
+				
+				
+				
+				
+<div class="col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="./images/sand angler.jfif">
+            <div class="card-body">
+                <h5 class="card-title">Sand Angler</h5>
+                <p class="card-text">The Sand Angler is first seen in the episode "The New Kid Part 1" when Eli uses one to create quicksand around Nacho. This armored slug is an Uncommon earth element slug. In "The Journey Home", it's the first Slug that Munch uses against Eli, implying that it is Munch's favourite Slug or his strongest Slug. In protoform they have mustard yellow skin and a chestnut brown shell. Upon reaching velocity, it looks like a scorpion and surrounds a person with quicksand. In the episode "The… </p>
+                <a href="https://github.com/sonalikari" class="btn btn-outline-danger btn-sm">Contributed by - Sonali</a>
+            </div>
+          </div>
+      </div>
+
+
+
+   <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/8/8a/ST_SG_SLUGS_NeotoxVeloTrail.png/revision/latest?cb=20131221214547" alt="Neotox">
+            <div class="card-body">
+                <h5 class="card-title">Neotox</h5>
+                <p class="card-text">Neotox are rare plant element Slugs. They are bright green with an orange head and are similar to Vinedrill Slugs except for the added orange colouration. These Slugs prefer to live in swamps and marshes. At velocity, they resemble an alligator with a caterpillar's tail. It's the signature Slug of Blite. A famous Neotox has not yet been seen in the show. A ghouled Neotox is called a Neurotox. The most famous user of Neotox Slugs is Blite. He was notorious for firing the Slug to release the… </p>
+                <a href="https://github.com/sonalikari" class="btn btn-outline-danger btn-sm">Contributed by - Sonali</a>
+            </div>
+          </div>
+      </div>
+				
+<div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/a/aa/Aquabeek_proto.png/revision/latest?cb=20170613203757" alt="aquabeek">
+          <div class="card-body">
+            <h5 class="card-title">Aqua beek</h5>
+            <p class="card-text">AquaBeeks are blue, turquoise, and white Water element Slugs. Its preferred habitats are sea caverns and coral reefs such as Undertow Cavern. AquaBeeks first appeared in "The World Beneath Our Feet Part 2". At velocity it has a similar appearance to a dolphin, with tentacles like an octopus. It's power type is a water and sonar. A famous AquaBeek is Beeker, who belongs to Eli Shane and is a powerful slug. A ghouled AquaBeek is called a Aquafreak. Protoform Abilities - Can spout a small…</p>
+            <a href="https://github.com/sonalikari" class="btn btn-outline-danger btn-sm">Contributed by - Sonali</a>
+          </div>
+        </div>
+      </div>			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 <div class="col-lg-4 mb-4">
   <div class="card">
 
@@ -1867,8 +2026,58 @@
     </div>
   </div>
 </div>
-<!-- </div> -->
 
+ <div class="col-lg-4 mb-4">
+   <div class="card">
+     <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/7/70/ST_SG_SLUGS_NeotoxProto.png/revision/latest?cb=20131221214529" alt="Neotox">
+     <div class="card-body">
+       <h5 class="card-title">Neotox</h5>
+       <p class="card-text">Neotox are rare plant element Slugs. They are bright green with an orange head and are similar to Vinedrill Slugs except for the added orange colouration. These Slugs prefer to live in swamps and marshes.</p>
+       <a href="https://github.com/Ingrzs" class="btn btn-outline-danger btn-sm">Contributed by - Ingrzs</a>
+      </div>
+     </div>
+   </div>			
+				
+
+<div class="col-lg-4 mb-4">
+  <div class="card">
+    <img
+      class="card-img-top"
+      src="https://i.pinimg.com/564x/74/17/5e/74175ecc4efb253b31d718d387939c60.jpg"
+      alt="Babosa Trilladora"
+    />
+    <div class="card-body">
+      <h5 class="card-title">Babosa Trilladora</h5>
+      <p class="card-text">
+        Geoshards are Slugs that attack through crystallization. They
+        are mainly yellow, with a light green back, covered in pastel
+        green crystals. Upon hitting 100 mph, it becomes a larger,
+        more vicious-looking version of itself. It's able to create a
+        projectile that crystallizes the target on contact.
+      </p>
+      <a
+        target="_blank"
+        href="https://github.com/FabianCristancho"
+        class="btn btn-outline-danger btn-sm"
+        >Contributed by - Fabian Cristancho</a
+      >
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-4 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="images/Arachnet.png" alt="Arachnet" />
+    <div class="card-body">
+      <h5 class="card-title">Arachnet</h5>
+      <p class="card-text">
+        Arachnet are, as its name suggests, spider-like Slugs. These Slugs are empowered with the element of earth and are uncommon. While in its protoform it can spin web lines and create small web nets. Its preferred habitat is Deaddrop Cavern and the Cavern of Time. Its power type is spinning webs and nets. It is the favourite Slug of Danna Por.
+
+      </p>
+      <a href="https://github.com/Ritika122001" class="btn btn-outline-danger btn-sm">Contributed by - Ritika Khanduri</a>
+    </div>
+  </div>
+</div>
 
 <div class="col-lg-4 mb-4">
   <div class="card">
@@ -1879,9 +2088,11 @@
         The Electric Elemental is one of the Elemental Slugs that is introduced in Slugterra: Slug it Out 2. It has A similar design to a Tazerling and looks like a buffed up Tazerling. He is one of the 5 new elemental slugs introduced in Slugterra: Slug it Out 2.
       </p>
       <a href="https://github.com/forMedusa" class="btn btn-outline-danger btn-sm">Contributed by - Amaan</a>
+
     </div>
   </div>
 </div>
+
 
 
 <div class="col-lg-4 mb-4">
@@ -1895,12 +2106,32 @@
       <a href="https://github.com/forMedusa" class="btn btn-outline-danger btn-sm">Contributed by - Jain</a>
     </div>
   </div>
+
 </div>
+			<div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://vignette.wikia.nocookie.net/slugterra/images/1/13/ST_SG_SLUGS_SlickSilverProto.png/revision/latest?cb=20131221200934" alt="Slicksilver Slug">
+                    <div class="card-body">
+                        <h5 class="card-title">Slicksilver</h5>
+                        <p class="card-text">The Slicksilver is a common metal Slug that has the ability to transform into a giant living ball of magnitized metal, creating a powerful magnetic field. It has a hard metallic shell to protect itself in protoform and when transformed.</p>
+                        <a href="https://github.com/bugsyy157" class="btn btn-outline-danger btn-sm">Contributed by - bugsyy-9</a>
+                    </div>
+                </div>
+              </div>
 <!-- </div> extra div found -->
+<div class="Explore"></div>
+<div class="col-lg-4 mb-4">
+  <div class="card">
+      <img class="card-img-top" src="images/Enigmo.webp" alt="Mo">
+      <div class="card-body">
+          <h5 class="card-title">Enigmo</h5>
+          <p class="card-text">Enigmo Hits an opponent, giving them blurry double vision, making all their slugs dizzy and makes them lose their train of thought </p>
+          <a href="https://github.com/AbhiMishra-Now" class="btn btn-outline-danger btn-sm">Contributed by - Abhishek</a>
+      </div>
+  </div>
+</div>
 
-
-
-
+<div class="explore"></div>
 
 <div class="col-lg-4 mb-4">
   <div class="card">
@@ -1914,13 +2145,177 @@
     </div>
   </div>
 </div>
-	</section>
+<div class="col-lg-4 mb-4">
+  <div class="card">
+      <img class="card-img-top" src="images/yurselfim.png" alt="">
+      <div class="card-body">
+          <h5 class="card-title">Yurselfim</h5>
+          <p class="card-text">An do-it-youself oriented slug. It creates everything needed by itself such as elemantaries.</p>
+          <a href="https://github.com/guilhermeorcezi" class="btn btn-outline-danger btn-sm">Contributed by - Guilherme Orcezi</a>
+      </div>
+  </div>
+</div>
+
+			
+<div class="col-lg-4 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="images/aquabeek.jpg" alt="fire/">
+    <div class="card-body">
+      <h5 class="card-title"> AquaBeek </h5>
+      <p class="card-text">
+        AquaBeeks are blue, turquoise, and white Water element Slugs. Its preferred habitats are sea caverns and coral reefs such as Undertow Cavern. AquaBeeks first appeared in "The World Beneath Our Feet Part 2". At velocity it has a similar appearance to a dolphin, with tentacles like an octopus.
+      </p>
+      <a href="https://github.com/komalswami" class="btn btn-outline-danger btn-sm">Contributed by - komal </a>
+    </div>
+  </div>
+</div>
 
 
-	<footer>
+<!-- Extra div -->
+
+<div class="col-lg-4 mb-4">
+  <div class="card">
+      <img class="card-img-top" src="images/Pieper-slug.jpg" alt="Purple/">
+      <div class="card-body">
+          <h5 class="card-title">Pieper Slug</h5>
+          <p class="card-text">Pieper slugs are incredibly strong slugs that are perfect for getting ammunition and turn enemy slugs to your side, and are also able to be useful offensively thanks to their sound based attacks. outside of battle they can also be useful to destroy obstacles like walls and rocks, and can also be useful for transportation thanks to their ability to fly. they can easily be deafeated by striking it before he uses its sound based attacks or by slinging a bubbaleone at the right time.</p>
+          <a href="https://github.com/Shivani1917" class="btn btn-outline-danger btn-sm">Contributed by - Shivani Badola </a>
+      </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+  <div class="card">
+    <img class="card-img-top" src="images/forgesmelter.png" alt="fire">
+    <div class="card-body">
+      <h5 class="card-title">Forgesmelter</h5>
+      <p class="card-text">
+        The Forgesmelter slug is a little slug found in volcanoes and mine shafts, they can melt metal or solder two pieces together with an unbreakable seal and they can even create a small eruption of molten metal! A famous Forgesmelter is Torch, who belongs to Eli Shane.
+      </p>
+      <a href="https://github.com/harshilshah99" class="btn btn-outline-danger btn-sm">Contributed by - Harshil</a>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+	
+
+
+  <!-- Elemental Slugs  -->
+  <div id="" class="gallery-div">
+		<h1 class="gallery-head">Elemental <img class="elemental" src="./images/logo-48.png" alt=""> Slugs</h1>
+	</div>
+
+  <section id="gallery">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="./images/fire.png" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Fire Elemental</h5>
+                <p class="card-text">The Fire Elemental Slug is a quite shy but kind of angry slug. He has one cream coloured horn on his forehead and gloves that let him hold fire. His tail (back) has the same properties as his gloves.</p>
+                <a href="https://github.com/harshvardhan614" class="btn btn-outline-danger btn-sm">Contributed by - Harshvardhan</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="./images/earth.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Earth Elemental</h5>
+              <p class="card-text">The Earth Elemental is one of the Elemental Slugs featured in the Slugterra: Return of the Elementals movie. He has been
+              the first elemental slug that the Shane Gang finds if not including Doc even though he was Ghouled by The Goon. He is one of the few slugs that can still be in velocity without moving.</p>
+                <a href="https://github.com/harshvardhan614" class="btn btn-outline-danger btn-sm">Contributed by - Harshvardhan</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="./images/air.png" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Air Elemental</h5>
+                <p class="card-text">The Air Elemental is a small grey slug with a heap of pointed spikes on her head. Also on her head is one small silver spike. She has flying membranes under her arms, giving her the power of flying in protoform.
+                  When she transforms she turns into a bird like creature with long slim silver wings with the same accessories as in protoform.</p>
+                <a href="https://github.com/harshvardhan614" class="btn btn-outline-danger btn-sm">Contributed by - Harshvardhan</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="./images/Water_Elemental_Slug_Protoform.webp" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Water Elemental </h5>
+                <p class="card-text">The Water Elemental is a small light blue slug with similar characteristics to the fire elemental, only blue. She has one tooth that sticks out on the left side of her mouth. When she transforms she kind of looks like a mermaid wearing blue armor and her teeth are always straight.</p>
+                <a href="https://github.com/harshvardhan614" class="btn btn-outline-danger btn-sm">Contributed by - Harshvardhan</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="images/Psychic.png" alt="fire" />
+          <div class="card-body">
+            <h5 class="card-title">Psychic Elemental</h5>
+            <p class="card-text">
+              The Psychic Elemental is one of the Elemental Slugs.The psychic elemental emits a powerful psionic wave from its magical eye that rapidly drains the opponent's energy and deals damage over time.
+            </p>
+            <a href="https://github.com/harshvardhan614" class="btn btn-outline-danger btn-sm">Contributed by - Harshvardhan</a>
+          </div>
+        </div>
+      </div>
+	                 <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Faminoapps.com%2Fc%2Famino-bajoterra-en-espanol%2Fpage%2Fitem%2Felemental-agua%2F2vE3_p1QhwIxDvak0v1xNQzdYbxBneBLBv&psig=AOvVaw1glXPPMKSURNNBOLjO4Z2l&ust=1666005740374000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKCRq6nR5PoCFQAAAAAdAAAAABAN" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Elemental Agua</h5>
+                        <p class="card-text">La elemental de agua es una pequeña babosa de color azul claro con características similares al elemental de fuego, solo azul. </p>
+                        <a href="https://github.com/anant23888" class="btn btn-outline-danger btn-sm">Contributed by - anant23888</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                  <img class="card-img-top" src="./images/gazzer.png" alt="Gazzer">
+                  <div class="card-body">
+                      <h5 class="card-title">Gazzer</h5>
+                      <p class="card-text">In Protoform, Gazzers are similar in shape to Armashelt and Crystalyd Slugs. Their skin and antennae are an ashy brown while their armor and eyes are primarily orange, though their armor has yellow outlines.
+
+                        When transformed, they take on a shape that almost seems like a chestnut. While their colors stay the same, they form four large holes in their shell that emits different types of gasses (depending on the attack). The gasses tend to appear as different shades of brown and yellow (also depending on the attack). They have an underbite that shows uneven teeth.</p>
+                      <a href="https://github.com/sidsrivastavasks" class="btn btn-outline-danger btn-sm">Contributed by - Siddhant Srivastava</a>
+                  </div>
+              </div>
+          </div>
+	      <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://static.wikia.nocookie.net/slugterra/images/6/68/Enigmo%282%29.png/revision/latest?cb=20170613203758" alt="Engimo">
+                    <div class="card-body">
+                        <h5 class="card-title">Engimo</h5>
+                        <p class="card-text">Enigmo is an endangered, ultra rare, species of Slug with a pair of vertically stacked eyes.</p>
+                        <a href="https://github.com/shibinshibu01" class="btn btn-outline-danger btn-sm">Contributed by - shibinshibu01</a>
+                    </div>
+                </div>
+            </div>
+     </div>
+    </div>
+  </section>
+
+  <section>
+    <a href="#top" >
+      <div class="back-to-top"><i class="fas fa-angle-up fa-4x backToTop"></i></div></i></a>
+  </section>
+<!-- <div class="explor"></div> -->
+
+  <footer class="footer">
+    Developed and Designed By <a href="https://github.com/vikhyatsingh123/"><span>Vikhyat Singh</span> </a> | © All Rights Reserved
+  </footer>
+	<!-- <footer>
+
 		<h1></h1>
 		<a href="#top" class="back-to-top"><i class="fas fa-angle-up fa-4x backToTop"></i></a>
-	</footer>
+	</footer> -->
 
 
 
