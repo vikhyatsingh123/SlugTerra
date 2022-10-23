@@ -21,6 +21,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="about.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
     <title>About</title>
   </head>
   <body>
@@ -59,80 +61,101 @@
       </h1>
       <div id="para">
         <p>
-          Hey! I am a Final Year Student. I'm currently pursuing B.Tech degree
-          in Electronics and Communication Engineering from National Institute
-          of Technology Patna.I love to learn and do code. I also like Web
-          development and full MERN Stack Web Developer and a Competitive
-          Programmer that's the reason, I created this project as a starter
-          Repository for Hacktoberfest2020 for the first-time participants who
-          can learn how to make their first pull request through this project.
+          Hey! I am a Second Year Engineering Student studying at National Institute of Technology
+          Patna.I love to learn and do code. I also like Web development so,I created this project as a starter Repository for Hacktoberfest2020 for
+          the first-time participants who can learn how to make their first pull
+          request through this project.
         </p>
       </div>
-      <div class="row">
-        <div class="col-lg-4 mb-4">
-          <div class="card text-white bg-dark">
-            <div id="one" class="card-body">
-              <h5 class="card-title">
-                <i class="fab fa-linkedin"></i> LinkedIn
-              </h5>
-              <p class="card-text">Let's Connect!</p>
+
+    <div class="containers">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p class="card-text">Let's Connect!</p>
+                    <br>
+                    <div style="text-align:center">
               <a
                 href="https://www.linkedin.com/in/vikhyat-singh-37777197/"
-                class="btn btn-outline-light btn-sm"
-                >LinkedIn</a
-              >
+                class="btn btn-outline-dark btn-sm"
+                >LinkedIn</a></div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card text-white">
-            <div id="two" class="card-body">
-              <h5 class="card-title"><i class="fab fa-github"></i> Github</h5>
-              <p class="card-text">Check out my Github Profile!</p>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p class="card-text">Check out my Github Profile!</p>
+                    <br>
+                    <div style="text-align:center">
               <a
                 href="https://github.com/vikhyatsingh123/"
-                class="btn btn-outline-light btn-sm"
-                >Github</a
-              >
+                class="btn btn-outline-dark btn-sm"
+                >Github</a></div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card text-white">
-            <div id="two" class="card-body">
-              <h5 class="card-title">
-                <i class="fab fa-facebook"></i> Facebook
-              </h5>
-              <p class="card-text">Check out my Facebook Profile!</p>
-              <a
-                href="https://facebook.com/vikhyatsingh123/"
-                class="btn btn-outline-light btn-sm"
-                >Facebook</a
-              >
-            </div>
+        <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <div class="icon">
+                      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  </div>
+              </div>
           </div>
-        </div>
-
-        <div class="col-lg-4 mb-4">
-          <div class="card text-white bg-dark">
-            <div id="three" class="card-body">
-              <h5 class="card-title">
-                <i class="fab fa-instagram"></i> Instagram
-              </h5>
-              <p class="card-text">Let's follow each other!</p>
-              <a
-                href="https://www.instagram.com/vikhyat552?r=nametag/"
-                class="btn btn-outline-light btn-sm"
-                >Instagram</a
-              >
-            </div>
+          <div class="face face2">
+              <div class="content">
+                  <p class="card-text">Check out my Facebook Profile!</p>
+                  <br>
+                  <div style="text-align:center">
+            <a
+              href="https://facebook.com/vikhyatsingh123/"
+              class="btn btn-outline-dark btn-sm"
+              >Facebook</a></div>
+              </div>
           </div>
-        </div>
       </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="icon">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    
+                    <p class="card-text">Let's follow each other!</p>
+                  <br>
+                  <div style="text-align:center">
+            <a
+              href="https://www.instagram.com/vikhyat552?r=nametag/"
+              class="btn btn-outline-dark btn-sm"
+              >Instagram</a></div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="buttons" class="text-center">
-      <a id="end1" href="index.html" class="btn btn-dark">Home</a>
+
+
+    <div id="buttons" class="text-center" style="margin-top: 5%;">
+      <a id="end1" href="index.html" class="btn btn-outline-dark">Home</a>
     </div>
 
     <script
@@ -151,9 +174,9 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(".navbar-nav>li>a").on("click", function () {
-        $(".navbar-collapse").collapse("hide");
-      });
+        $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
     </script>
   </body>
 </html>
