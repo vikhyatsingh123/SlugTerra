@@ -25,7 +25,7 @@ Follow these steps to make your very first Pull request.
 
 # But what if I don't know how to add cards :(
 
-Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code below to add your own card because everyone loves Pokémon and everyone should get a chance to add their favourite Pokémons!
+Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code below to add your own card because everyone loves SlugTerra and everyone should get a chance to add their favourite slugs!
 
 Code - 
 
