@@ -43,22 +43,21 @@
   bottom: 0;
   text-align: center;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 16px;
 }
 .slides-pagination a {
-  /* border: 2px solid #222; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px;
-  width: 10px;
   height: 10px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+  width: 10px;
   margin: 2px;
-  overflow: hidden;
-  text-indent: -100%;
+  padding: 32px;
+  color: white;
 }
 .slides-pagination a.current {
   background: rgb(204, 99, 99);
