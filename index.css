@@ -4,6 +4,8 @@
 
 .card-title{
   color: Red;
+  text-align: center;
+  font-size: x-large;
 }
 
 .next{
@@ -83,6 +85,11 @@ html {
   margin:0 auto;
 }
 .card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 45%;  
   padding: 2rem;
 }
 body {
