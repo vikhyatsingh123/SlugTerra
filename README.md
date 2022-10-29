@@ -47,6 +47,10 @@ Copy this code and paste it in the index.html file to make your changes. Try and
 
 Congratulation! You just made your first pull request and if it gets merged, you can view it using the Link provided above!
 
+# Tip!
+ 
+Create the design in your mind portray on the page.
+
 # Contributors
 
 <a href="https://github.com/vikhyatsingh123/SlugTerra/graphs/contributors">
