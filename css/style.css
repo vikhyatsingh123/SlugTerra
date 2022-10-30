@@ -340,6 +340,7 @@ button:focus {
 .slides-pagination a.current {
     background: #FF4F04;
     border: 2px solid #FF4F04;
+    padding: 34px;
 }
 
 /*------------------------------------------------------------------
