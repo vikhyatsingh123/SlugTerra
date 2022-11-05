@@ -109,6 +109,9 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #222;
   color: wheat;
   margin:20px;
@@ -121,6 +124,13 @@ body {
 
 .card-text{
   color:#eee;
+  text-align: left;
+  margin: 8px 16px 8px 18px;
+}
+
+.card-body > a {
+  text-decoration: none;
+  letter-spacing: 4px;
 }
 
 .card:hover{
