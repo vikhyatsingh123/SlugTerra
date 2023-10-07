@@ -2,11 +2,32 @@
   width: 15px;
 }
 
-.card-title{
-  color: Red;
+.card-title {
+  font-size: 1.3rem;  
+  font-weight: bold;  
+  color: #034efd; 
+   
+  transition: transform 0.3s ease;
   text-align: center;
-  font-size: x-large;
 }
+
+.card-title:hover {
+  font-size: 1.7rem;
+  color: #ff6600;  
+  transform: scale(1.05); 
+  cursor: pointer; 
+}
+ 
+.card-title {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.5rem; 
+  margin-bottom: 0.5rem; 
+}
+ 
+.card-title:hover {
+  border-bottom-color: #ff6600;
+}
+
 
 .next{
   padding: 3px;
