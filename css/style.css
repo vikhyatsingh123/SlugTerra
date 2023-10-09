@@ -103,9 +103,9 @@ a {
 
 a,
 .btn {
-      position:relative;
+    position:relative;
     text-align: center;
-    width:250px;
+    width:230px;
     padding:40px;
     font-size:35px;
     color:#15f4ee;
@@ -113,7 +113,8 @@ a,
     font-weight:400;
     border:5px solid #15f4ee;
     text-transform:uppercase;
-    letter-spacing: 15px;
+    text-align: center;
+    overflow: hidden;
     cursor:pointer;
     border-radius: 100px;
     transition:1.5s;
