@@ -2,11 +2,32 @@
   width: 15px;
 }
 
-.card-title{
-  color: Red;
+.card-title {
+  font-size: 1.3rem;  
+  font-weight: bold;  
+  color: #034efd; 
+   
+  transition: transform 0.3s ease;
   text-align: center;
-  font-size: x-large;
 }
+
+.card-title:hover {
+  font-size: 1.7rem;
+  color: #ff6600;  
+  transform: scale(1.05); 
+  cursor: pointer; 
+}
+ 
+.card-title {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 0.5rem; 
+  margin-bottom: 0.5rem; 
+}
+ 
+.card-title:hover {
+  border-bottom-color: #ff6600;
+}
+
 
 .next{
   padding: 3px;
@@ -124,10 +145,20 @@ body {
 }
 
 .card:hover{
-  box-shadow: 10px 10px 1px #e92929, 20px 20px 1px 
-  #a2e946,30px 30px 1px #297ce9, 40px 40px 1px #e92999;
+  box-shadow: -10px 10px 10px  #dcf002, 10px -10px 10px 
+  #d61616 ;
   transform: scale(0.95);
   z-index: 100;
+}
+
+.card {  
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.04); /* Increase size on hover */
 }
 
 .theme{
