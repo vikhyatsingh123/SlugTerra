@@ -1,0 +1,73 @@
+## Welcome to SlugTerra 
+Hey there, fellow SlugTerra enthusiast! Remember the good ol' days when we used to immerse ourselves in the world of SlugTerra, watching it on DisneyXD? We sure do! Now, with Hacktoberfest 2020 around the corner, we invite you to relive those memories by contributing to this repository. We've crafted a basic web-page that lets you showcase your favorite slugs and make SlugTerra even more awesome. Join us and let's share our love for SlugTerra!
+
+You can find all types Slugs on  https://slugterra.fandom.com/wiki/Slugs  and also on https://www.pinterest.ca/XyroXD/slugterra-slugs-and-stuff/ 
+
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+### Run Locally
+
+To run **SlugTerra** locally, run this command on your git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/vikhyatsingh123/SlugTerra.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/vikhyatsingh123/SlugTerra.git
+```
+
+## Contents of the Webpage
+Here's what you'll find in this repository:
+
+index.html - The heart of our web-page with the main content.
+index.css - Styling for the home page.
+about.html - A little about the creator of this project.
+about.css - Styling for the about page.
+
+## What Can You Contribute?
+Whether you're a beginner or an expert, there's always a way to contribute. In this project, you can add your favorite Slug as a card to the website. Don't like something you see? You can change it too. It's all about making SlugTerra even better!
+
+## How Can You Contribute?
+Ready to participate in Hacktoberfest 2023? 
+
+Now, follow these steps to make your very first Pull request.
+
+## What If You Don't Know How to Add Cards?
+Not everyone is a coding guru, and that's perfectly fine. You can still add your favorite slugs using this code:
+
+<div class="col-lg-4 mb-4">
+    <div class="card">
+        <img class="card-img-top" src="[Link to Slug image]" alt="">
+        <div class="card-body">
+            <h5 class="card-title">[Name of your Slug]</h5>
+            <p class="card-text">[Small Description about your Slug]</p>
+            <a href="[Add the link to your Github Profile]" class="btn btn-outline-danger btn-sm">Contributed by - [Add your Github Username/profile name]</a>
+        </div>
+    </div>
+</div>
+Just copy this code and paste it into the index.html file to make your changes. Test it on your system and create a Pull request. It's that simple!
+
+## Congratulations!
+Congratulations on making your first pull request! If it gets merged, you can view it using the link provided above. Your contribution will be a part of the SlugTerra legacy.
+
+Tips
+Let your creativity flow and design your card with your favorite slug in mind. Make it truly SlugTerra-worthy!
+
+## Contributors
+Want to see who else has joined in the SlugTerra fun? Check out our contributors here. Join the list and let's make SlugTerra unforgettable!
+<a href="https://github.com/vikhyatsingh123/SlugTerra/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vikhyatsingh123/SlugTerra" />
+</a>
+
+
+
+
+
