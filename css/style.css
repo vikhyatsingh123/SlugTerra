@@ -101,7 +101,7 @@ a {
     outline: none;
 }
 
-a,
+/* a,
 .btn {
     position:relative;
     text-align: center;
@@ -118,7 +118,8 @@ a,
     cursor:pointer;
     border-radius: 100px;
     transition:1.5s;
-}
+} */
+
 .btn:hover{
     box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
 }
