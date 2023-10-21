@@ -10,7 +10,7 @@
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1pxsolidrgba (0, 0, 0, 0.125);
+  /* border: 1px solid rgba (0, 0, 0, 0.125); */
   border-radius: 0.25rem;
   height: 100%;
   overflow: hidden;
@@ -20,8 +20,9 @@
 }
 
 .card:hover{
-  border-color: #FF4F04 !important;
-  scale: 105%;
+  /* border-color: #FF4F04 !important; */
+  scale: 100%;
+  cursor: pointer;
 }
 
 
@@ -39,6 +40,7 @@
   padding: 2rem;
 }
 p.card-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   white-space: normal;
   word-wrap: break-word;
   display: -webkit-box;

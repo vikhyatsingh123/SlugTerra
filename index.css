@@ -5,8 +5,9 @@
 .card-title {
   font-size: 1.3rem;  
   font-weight: bold;  
-  color: #034efd; 
-   
+  color: #FF4F04; 
+  text-transform:uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   transition: transform 0.3s ease;
   text-align: center;
 }
@@ -112,6 +113,12 @@ html {
   width: 45%;
   height: 45%;  
   padding: 2rem;
+  transition: transform 0.3s ease;
+
+}
+.card-img-top:hover{
+  cursor: pointer;  
+  transform: scale(1.1); 
 }
 body {
   font-family: 'Righteous', cursive;
@@ -138,9 +145,7 @@ body {
   margin:20px;
   border-radius: 0;
   height: 100%;
-  box-shadow: 3px 3px 1px #e92929, 5px 5px 1px 
-  #a2e946,7px 7px 1px #297ce9, 9px 9px 1px #e92999;
-  transition: all 0.5s;
+  transition: 0.5s all;
 }
 
 .card-text{
@@ -155,20 +160,34 @@ body {
 }
 
 .card:hover{
-  box-shadow: -10px 10px 10px  #dcf002, 10px -10px 10px 
-  #d61616 ;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #FF4F04;
   transform: scale(0.95);
   z-index: 100;
 }
 
-.card {  
-  border: 1px solid #ccc;
+.card {
   border-radius: 50px;
   transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.04); /* Increase size on hover */
+}
+
+.contributor-name{
+  display: block;
+  width:fit-content;
+  height: 60px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size:15px;
+  color:#f3f7f7;
+  font-family: poppins;
+  text-transform:uppercase;
+  overflow: hidden;
+  cursor:pointer;
 }
 
 .theme{
