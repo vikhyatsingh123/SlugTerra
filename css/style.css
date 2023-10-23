@@ -120,9 +120,9 @@ a {
     transition:1.5s;
 } */
 
-.btn:hover{
+/* .btn:hover{
     box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
-}
+} */
 
 .btn-custom {
     margin-top: 20px;
