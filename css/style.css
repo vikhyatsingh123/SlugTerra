@@ -1529,6 +1529,12 @@ blockquote {
     transition: opacity 0.2s ease-out;
     font-size: 30px;
 }
+
+.scroll-up-img{
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
 /* GlowBall CSS */
 .Explore{
     width: 250px;
