@@ -6,7 +6,7 @@
 }
 
 html{
-	background-color: #eaf0f2;
+	background-color:  #e0ac1c;
 }
 
 body{
@@ -21,16 +21,17 @@ header{
 
 header h1{
 	font: normal 32px/1.5 'Open Sans', sans-serif;
-	color: #3F71AE;
+	color: black;
+	font-weight: bold;
 	padding-bottom: 16px;
 }
 
 header h2{
-	color: #F05283;
+	color: red;
 }
 
 header span{
-	color: #3F71EA;
+	color: blue;
 }
 
 
