@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .todo-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .todo-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+        }
+        .todo-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .todo-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .todo-item input {
+            margin-right: 8px;
+        }
+        .delete-button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Simple To-Do List</h1>
+        <input type="text" class="todo-input" id="newTodo" placeholder="Add a new task">
+        <ul class="todo-list" id="todoList"></ul>
+    </div>
+
+    <script>
+        document.getElementById('newTodo').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' && event.target.value.trim() !== '') {
+                addTodoItem(event.target.value.trim());
+                event.target.value = '';
+            }
+        });
+
+        function addTodoItem(text) {
+            var todoList = document.getElementById('todoList');
+            var listItem = document.createElement('li');
+            var todoItem = document.createElement('div');
+            todoItem.classList.add('todo-item');
+            todoItem.innerHTML = `
+                <input type="checkbox">
+                <span>${text}</span>
+                <span class="delete-button">❌</span>
+            `;
+            listItem.appendChild(todoItem);
+            todoList.appendChild(listItem);
+
+            var deleteButton = listItem.querySelector('.delete-button');
+            deleteButton.addEventListener('click', function() {
+                listItem.remove();
+            });
+        }
+    </script>
+</body>
+</html>
