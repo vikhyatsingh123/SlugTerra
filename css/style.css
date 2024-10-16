@@ -707,14 +707,19 @@ button:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
-.back-to-top i{
+/* Update back-to-top icon styling: Adjust font size, color, and spacing for consistent alignment */
+.back-to-top i {
     font-size: 3rem; 
-    color: #ffffff;   
-    /* height: 50px;
-    width: 50px; */
+    color: #ffffff;
+    line-height: 1;  /* Ensure the icon doesn't have extra spacing */
+    display: inline-block;  /* Helps ensure correct sizing for the icon */
+    margin: 0;  /* Remove any inherited margins */
+    padding: 0;  /* Remove any padding */
 }
+
 /* .footer-area {
     padding-top: 50px;
     padding-bottom: 0px;
